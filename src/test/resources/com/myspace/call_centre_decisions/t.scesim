@@ -37,6 +37,61 @@
             <ExpressionElement>
               <step>inbound</step>
             </ExpressionElement>
+            <ExpressionElement>
+              <step>phone</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone_number</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1592323594577</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>inbound</name>
+            <className>.inbound</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>inbound</factAlias>
+          <expressionAlias>phone.phone_number</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>126.625</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>inbound</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>country_prefix</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1592323582475</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>inbound</name>
+            <className>.inbound</className>
+          </factIdentifier>
+          <className>country_prefix</className>
+          <factAlias>inbound</factAlias>
+          <expressionAlias>phone.country_prefix</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>126.625</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>inbound</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>purpose</step>
+            </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
             <name>1592323480672</name>
@@ -46,11 +101,11 @@
             <name>inbound</name>
             <className>.inbound</className>
           </factIdentifier>
-          <className>.inbound</className>
+          <className>string</className>
           <factAlias>inbound</factAlias>
-          <expressionAlias>expression &lt;/&gt;</expressionAlias>
-          <factMappingValueType>EXPRESSION</factMappingValueType>
-          <columnWidth>144.71428571428572</columnWidth>
+          <expressionAlias>purpose</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>126.625</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -74,7 +129,7 @@
           <expressionAlias>purpose</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>127.7220276497696</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -101,7 +156,7 @@
           <expressionAlias>phone.country_prefix</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>127.7220276497696</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -128,7 +183,7 @@
           <expressionAlias>phone.phone_number</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>127.7220276497696</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -149,7 +204,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>127.7220276497696</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -170,7 +225,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>229.67557603686632</columnWidth>
+          <columnWidth>200.966129032258</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -191,7 +246,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>127.7220276497696</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -294,6 +349,29 @@
               <name>1592323480672</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>inbound</name>
+              <className>.inbound</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592323582475</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>inbound</name>
+              <className>.inbound</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592323594577</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;234234&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -395,6 +473,29 @@
               <name>1592323480672</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;objection&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>inbound</name>
+              <className>.inbound</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592323582475</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>inbound</name>
+              <className>.inbound</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592323594577</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;234234&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
