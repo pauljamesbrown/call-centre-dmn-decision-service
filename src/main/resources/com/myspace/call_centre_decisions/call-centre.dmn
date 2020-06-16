@@ -1,6 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_719816A0-D43E-4775-99A5-253C25AE9251" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_32351A5C-F1B3-46D5-B353-3862A0955539" name="call-centre" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_719816A0-D43E-4775-99A5-253C25AE9251">
   <dmn:extensionElements/>
+  <dmn:itemDefinition id="_D0047D38-4B46-41F4-B211-0A3E353B32AE" name="tPhoneNumber" isCollection="false">
+    <dmn:itemComponent id="_6905832D-D7BC-4C69-A941-AD4D2A541F10" name="phone_number" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_7726C6F5-737A-413B-936A-B6F11734A210" name="conntry_prefix" isCollection="false">
+      <dmn:allowedValues kie:constraintType="enumeration" id="_BD6CD695-98E3-42C5-B999-9331BA238269">
+        <dmn:text>"+421", "+420"</dmn:text>
+      </dmn:allowedValues>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_C5CD1695-0454-4DF2-A37D-A472509809C9" name="tCall" isCollection="false">
+    <dmn:itemComponent id="_B60677E9-5F9B-4ECD-AD40-F0341BBB9655" name="purpose" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_51A17116-3884-41E7-98F1-0633AECEA41D" name="phone" isCollection="false">
+      <dmn:typeRef>tPhoneNumber</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="Office">
     <dmn:extensionElements/>
     <dmn:variable id="_9D765D4A-66E4-40E3-9CB0-782E339ACBE7" name="Office"/>
