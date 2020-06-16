@@ -148,7 +148,7 @@
       <dmn:requiredInput href="#_4C59EF03-92DB-4361-AC9B-10028217F41E"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_3229BF17-6D78-4047-B480-0B17A1842048">
-      <dmn:text>string length(incoming_call.phone.phone_number)>0</dmn:text>
+      <dmn:text>true</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
