@@ -190,6 +190,9 @@
     <dmn:informationRequirement id="_680CC878-477B-4A9B-BD61-7212EA1354A8">
       <dmn:requiredInput href="#_772E92A9-93F9-41AC-86FC-41A9BB2EA28D"/>
     </dmn:informationRequirement>
+    <dmn:informationRequirement id="_74D3A432-1AB8-4D2F-B4E2-085C4A0C3BBC">
+      <dmn:requiredInput href="#_7CEFED91-5915-436C-AFA6-54ED5F182830"/>
+    </dmn:informationRequirement>
     <dmn:knowledgeRequirement id="_713B7865-239D-489A-B975-082AB8420774">
       <dmn:requiredKnowledge href="#_507DA6BA-D84A-438A-B511-691F3623609C"/>
     </dmn:knowledgeRequirement>
@@ -234,6 +237,10 @@
     <dmn:encapsulatedDecision href="#_EA90B1D8-0AA4-4225-BD3A-570B8EE78D6B"/>
     <dmn:inputData href="#_1CB8349C-6903-43FE-9B7E-8F314813BC83"/>
   </dmn:decisionService>
+  <dmn:inputData id="_7CEFED91-5915-436C-AFA6-54ED5F182830" name="incoming call">
+    <dmn:extensionElements/>
+    <dmn:variable id="_DCED5ACC-F464-403E-AB2F-443CE3240B85" name="incoming call" typeRef="tCall"/>
+  </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
@@ -322,6 +329,15 @@
         <dc:Bounds x="720" y="391" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_7CEFED91-5915-436C-AFA6-54ED5F182830" dmnElementRef="_7CEFED91-5915-436C-AFA6-54ED5F182830" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="583.2990654205607" y="391.3421052631579" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_1CB8349C-6903-43FE-9B7E-8F314813BC83" dmnElementRef="_1CB8349C-6903-43FE-9B7E-8F314813BC83" isCollapsed="false">
         <dmndi:DMNStyle>
           <dmndi:FillColor red="255" green="255" blue="255"/>
@@ -402,6 +418,10 @@
       <dmndi:DMNEdge id="dmnedge-_713B7865-239D-489A-B975-082AB8420774" dmnElementRef="_713B7865-239D-489A-B975-082AB8420774">
         <di:waypoint x="519" y="313"/>
         <di:waypoint x="721" y="313"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_74D3A432-1AB8-4D2F-B4E2-085C4A0C3BBC" dmnElementRef="_74D3A432-1AB8-4D2F-B4E2-085C4A0C3BBC">
+        <di:waypoint x="633.2990654205607" y="391.3421052631579"/>
+        <di:waypoint x="771" y="338"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
