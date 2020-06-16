@@ -153,7 +153,7 @@
   </dmn:inputData>
   <dmn:inputData id="_1CB8349C-6903-43FE-9B7E-8F314813BC83" name="call">
     <dmn:extensionElements/>
-    <dmn:variable id="_9CD9FE7D-8979-4E96-8981-B9B8BEB179BA" name="call" typeRef="tCall"/>
+    <dmn:variable id="_9CD9FE7D-8979-4E96-8981-B9B8BEB179BA" name="call"/>
   </dmn:inputData>
   <dmn:decision id="_50EDF7C9-F659-470D-91D3-6A5380401C09" name="Banned Phone Numbers">
     <dmn:extensionElements/>
@@ -237,7 +237,7 @@
   </dmn:decisionService>
   <dmn:inputData id="_7CEFED91-5915-436C-AFA6-54ED5F182830" name="incoming call">
     <dmn:extensionElements/>
-    <dmn:variable id="_DCED5ACC-F464-403E-AB2F-443CE3240B85" name="incoming call" typeRef="tCall"/>
+    <dmn:variable id="_DCED5ACC-F464-403E-AB2F-443CE3240B85" name="incoming call"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
@@ -333,7 +333,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="312.29906542056074" y="503" width="100" height="50"/>
+        <dc:Bounds x="311.5981308411215" y="503" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_50EDF7C9-F659-470D-91D3-6A5380401C09" dmnElementRef="_50EDF7C9-F659-470D-91D3-6A5380401C09" isCollapsed="false">
@@ -390,11 +390,11 @@
         <di:waypoint x="262" y="369"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_CF8561B7-4677-42E8-988E-1859A68D26F6" dmnElementRef="_CF8561B7-4677-42E8-988E-1859A68D26F6">
-        <di:waypoint x="362.29906542056074" y="503"/>
+        <di:waypoint x="361.5981308411215" y="503"/>
         <di:waypoint x="312" y="394"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_9DC5453C-41FD-4CA6-9D32-28DB47832F2D" dmnElementRef="_9DC5453C-41FD-4CA6-9D32-28DB47832F2D">
-        <di:waypoint x="362.29906542056074" y="503"/>
+        <di:waypoint x="361.5981308411215" y="503"/>
         <di:waypoint x="439" y="394"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_2B081C09-A64B-4850-AFB0-2E394B18286B" dmnElementRef="_2B081C09-A64B-4850-AFB0-2E394B18286B">
