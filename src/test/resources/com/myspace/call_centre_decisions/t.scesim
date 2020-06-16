@@ -277,6 +277,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;0123&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -287,6 +288,7 @@
               <name>1|3</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;234234</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -396,6 +398,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;12345&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -406,6 +409,7 @@
               <name>1|3</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;52342</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
