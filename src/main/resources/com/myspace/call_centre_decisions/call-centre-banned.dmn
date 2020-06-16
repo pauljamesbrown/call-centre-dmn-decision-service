@@ -27,7 +27,7 @@
       <dmn:requiredDecision href="#_8AF90EEE-57CD-4261-991F-9637FB14D50F"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
-      <dmn:text>list contains(Banned Phone Numbers, Call.call.phone)</dmn:text>
+      <dmn:text>list contains(Banned Phone Numbers, Call.phone)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
