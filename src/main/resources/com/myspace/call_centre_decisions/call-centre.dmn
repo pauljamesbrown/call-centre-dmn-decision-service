@@ -57,7 +57,7 @@
     </dmn:informationRequirement>
     <dmn:decisionTable id="_709AB33C-3153-4613-A51F-30FD8C13F5E6" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
       <dmn:input id="_F163FADF-A9E4-4422-83AC-B4454BFF04D4">
-        <dmn:inputExpression id="_471F19B8-83C6-4607-91DC-B9EE3227E16C" typeRef="tPhoneNumber">
+        <dmn:inputExpression id="_471F19B8-83C6-4607-91DC-B9EE3227E16C">
           <dmn:text>call.phone</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
@@ -224,7 +224,7 @@
   </dmn:decision>
   <dmn:inputData id="_772E92A9-93F9-41AC-86FC-41A9BB2EA28D" name="employees">
     <dmn:extensionElements/>
-    <dmn:variable id="_EDED9350-3A1F-482B-A3E2-49519B2C0BED" name="employees" typeRef="tEmployees"/>
+    <dmn:variable id="_EDED9350-3A1F-482B-A3E2-49519B2C0BED" name="employees"/>
   </dmn:inputData>
   <dmn:decisionService id="_507DA6BA-D84A-438A-B511-691F3623609C" name="Can Handle Call">
     <dmn:extensionElements/>
