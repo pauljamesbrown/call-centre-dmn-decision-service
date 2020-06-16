@@ -62,7 +62,9 @@
     <dmn:informationRequirement id="_BB3644E9-C2BD-46B3-81B6-F42EBA998FDD">
       <dmn:requiredDecision href="#_50EDF7C9-F659-470D-91D3-6A5380401C09"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:literalExpression id="_3E5EE7A4-A62B-4D3F-BCB1-A0E8C0C57BEA">
+      <dmn:text>list contains(Banned Phone Numbers, call.phone)</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="Office">
     <dmn:extensionElements/>
@@ -74,8 +76,19 @@
   </dmn:inputData>
   <dmn:decision id="_50EDF7C9-F659-470D-91D3-6A5380401C09" name="Banned Phone Numbers">
     <dmn:extensionElements/>
-    <dmn:variable id="_D9818797-53C0-4C78-98F4-9EBD33B1AC9E" name="Banned Phone Numbers" typeRef="tPhoneNumber"/>
-    <dmn:literalExpression/>
+    <dmn:variable id="_D9818797-53C0-4C78-98F4-9EBD33B1AC9E" name="Banned Phone Numbers" typeRef="tPhoneNumbers"/>
+    <dmn:relation id="_9803472E-E4DB-4D23-9BD0-42C6D4BF342A">
+      <dmn:column id="_42CA11FA-F38D-49A6-AF30-74F8E643B9DC" name="country_prefix" typeRef="string"/>
+      <dmn:column id="_F84BEB5A-BD36-40F2-81B4-7D827F14F814" name="phone_number" typeRef="string"/>
+      <dmn:row id="_9B6E6FEA-DEF1-49CC-A566-1F3A0D9DAD45">
+        <dmn:literalExpression id="_20C3DC6C-E5C7-4AE2-9D59-A1C83A1305EF">
+          <dmn:text></dmn:text>
+        </dmn:literalExpression>
+        <dmn:literalExpression id="_36FED366-CFA7-49ED-B189-FF03D189BA9C">
+          <dmn:text></dmn:text>
+        </dmn:literalExpression>
+      </dmn:row>
+    </dmn:relation>
   </dmn:decision>
   <dmn:decision id="_2490A030-BAD7-4F61-85CD-8E4F0C2020BE" name="Accept Call">
     <dmn:extensionElements/>
@@ -116,7 +129,17 @@
       <di:extension>
         <kie:ComponentsWidthsExtension>
           <kie:ComponentWidths dmnElementRef="_7D0EEE53-F31B-42A8-A4B1-DB1015D3FF20"/>
+          <kie:ComponentWidths dmnElementRef="_9803472E-E4DB-4D23-9BD0-42C6D4BF342A">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>183.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_20C3DC6C-E5C7-4AE2-9D59-A1C83A1305EF"/>
+          <kie:ComponentWidths dmnElementRef="_36FED366-CFA7-49ED-B189-FF03D189BA9C"/>
           <kie:ComponentWidths dmnElementRef="_04888CC6-316E-4330-9171-2640E514B1EE"/>
+          <kie:ComponentWidths dmnElementRef="_3E5EE7A4-A62B-4D3F-BCB1-A0E8C0C57BEA">
+            <kie:width>437.0</kie:width>
+          </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_6A07923A-721C-4653-B197-5FFA2B0898B9" dmnElementRef="_6A07923A-721C-4653-B197-5FFA2B0898B9" isCollapsed="false">
