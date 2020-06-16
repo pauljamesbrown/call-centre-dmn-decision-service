@@ -54,7 +54,7 @@
           <expressionAlias>purpose</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>168.83333333333331</columnWidth>
+          <columnWidth>144.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -81,7 +81,7 @@
           <expressionAlias>phone.country_prefix</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>168.83333333333331</columnWidth>
+          <columnWidth>144.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -108,7 +108,7 @@
           <expressionAlias>phone.phone_number</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>168.83333333333331</columnWidth>
+          <columnWidth>144.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -129,7 +129,27 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>168.83333333333331</columnWidth>
+          <columnWidth>144.7142857142857</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Accept Call</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1592317943581</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Accept Call</name>
+            <className>.Accept Call</className>
+          </factIdentifier>
+          <className>boolean</className>
+          <factAlias>Accept Call</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -149,7 +169,7 @@
           <factAlias>Can Call Be Handled</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>168.83333333333331</columnWidth>
+          <columnWidth>144.7142857142857</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -170,7 +190,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>168.83333333333331</columnWidth>
+          <columnWidth>144.7142857142857</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -264,6 +284,16 @@
             </expressionIdentifier>
             <rawValue class="string">true</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Accept Call</name>
+              <className>.Accept Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592317943581</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -354,6 +384,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Accept Call</name>
+              <className>.Accept Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592317943581</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -446,6 +486,16 @@
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Accept Call</name>
+              <className>.Accept Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592317943581</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -536,6 +586,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Accept Call</name>
+              <className>.Accept Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592317943581</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -628,6 +688,16 @@
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Accept Call</name>
+              <className>.Accept Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592317943581</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -719,6 +789,16 @@
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Accept Call</name>
+              <className>.Accept Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592317943581</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -809,6 +889,16 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Accept Call</name>
+              <className>.Accept Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592317943581</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
