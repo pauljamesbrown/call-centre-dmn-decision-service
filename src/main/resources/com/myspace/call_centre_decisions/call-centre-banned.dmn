@@ -2,6 +2,9 @@
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_2FCC447B-D575-40DE-A45A-44A2D6E3B393" name="call-centre-banned" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1">
   <dmn:extensionElements/>
   <dmn:itemDefinition id="_D7AD1DAF-D545-48A1-B888-6832FFF699DA" name="tCall" isCollection="false">
+    <dmn:itemComponent id="_D6BDF366-92A0-4627-A275-1B2749332D27" name="purpose" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
     <dmn:itemComponent id="_A6FB02FA-5622-479C-8678-C51AE77F88B2" name="phone" isCollection="false">
       <dmn:typeRef>tPhoneNumber</dmn:typeRef>
     </dmn:itemComponent>
@@ -96,26 +99,26 @@
     <dmn:informationRequirement id="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_0CE6C2AE-4890-4C98-851D-1AD1C024DD5A" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
-      <dmn:input id="_3688A3CD-27ED-40B3-8125-EF2C97B9235A">
-        <dmn:inputExpression id="_0A6B5C3C-D627-4B09-972B-99DFB6C8A576" typeRef="tCall">
+    <dmn:decisionTable id="_53F55661-43D6-4F5E-B79A-8AC83D0EA672" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_EAA29299-49C8-4DDB-95B6-01B922475F8D">
+        <dmn:inputExpression id="_595C328F-0497-42BB-8413-3CE0A3DC008D" typeRef="string">
           <dmn:text>Call.purpose</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_53BD6806-6A8C-4418-9ED1-ABC232709D7E" typeRef="tCall"/>
-      <dmn:rule id="_5572D140-EEA7-4E38-BD59-805D30251B4D">
-        <dmn:inputEntry id="_E4BB7388-857D-4B5A-9E96-5170888E27EC">
+      <dmn:output id="_CB31EE6D-7A74-4FF3-AB2D-5F241EFE429A" typeRef="boolean"/>
+      <dmn:rule id="_DF0D3B11-1BA2-46DA-BD5E-DF0066A49BAA">
+        <dmn:inputEntry id="_5A844730-A736-4621-8C33-DB8589FB7BEA">
           <dmn:text>"help"</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_5772434F-BBD3-49C5-B017-9C2F0D225A27">
+        <dmn:outputEntry id="_9251FB7B-A798-442D-AEF6-1DD7F32CD23C">
           <dmn:text>true</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
-      <dmn:rule id="_E2C8BB31-E5A7-444D-8323-0D24BB3BC540">
-        <dmn:inputEntry id="_212483FD-6E75-42D5-94E1-24DC25A97335">
+      <dmn:rule id="_EAC508A6-6233-461D-B126-79B59F4D59BD">
+        <dmn:inputEntry id="_FA149EF6-CAA2-4E8D-AA44-F8E599EBF143">
           <dmn:text>"objection"</dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_97512D93-BF94-4675-99F1-12DEE9B93D2F">
+        <dmn:outputEntry id="_7F9F6F29-46A2-432B-9F6B-BD0AC088EA82">
           <dmn:text>false</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
@@ -159,10 +162,10 @@
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_0CE6C2AE-4890-4C98-851D-1AD1C024DD5A">
+          <kie:ComponentWidths dmnElementRef="_53F55661-43D6-4F5E-B79A-8AC83D0EA672">
             <kie:width>50.0</kie:width>
-            <kie:width>237.0</kie:width>
-            <kie:width>192.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_1691D37F-3C2A-4E83-8824-6F8EB166C729">
