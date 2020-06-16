@@ -63,7 +63,11 @@
           <dmn:text>Call Purpose Accepted</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_D0131D91-5872-4DC9-B30C-F1B3FB4E85C5" typeRef="boolean"/>
+      <dmn:output id="_D0131D91-5872-4DC9-B30C-F1B3FB4E85C5" typeRef="boolean">
+        <dmn:defaultOutputEntry id="_7C2FF09F-6B52-4D79-AAB0-27037BE7346F">
+          <dmn:text>false</dmn:text>
+        </dmn:defaultOutputEntry>
+      </dmn:output>
       <dmn:rule id="_A523F78D-5CB3-4BAA-A883-D908ED054043">
         <dmn:inputEntry id="_0EA1BD1F-DED9-4AF6-B9A2-CB06B1E7A75E">
           <dmn:text>false</dmn:text>
