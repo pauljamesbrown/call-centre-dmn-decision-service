@@ -135,7 +135,7 @@
     </dmn:informationRequirement>
     <dmn:invocation id="_B98CBF93-E479-4034-98B7-24C9D7035416">
       <dmn:literalExpression id="_8370CC3A-81C3-4AB8-A3AE-64A766FA09A6">
-        <dmn:text>Can Be Handled</dmn:text>
+        <dmn:text>Can Handle Call</dmn:text>
       </dmn:literalExpression>
       <dmn:binding>
         <dmn:parameter id="_EC26CF8A-55C5-48D9-84D5-5BC9DB692D5C" name="Call" typeRef="tCall"/>
