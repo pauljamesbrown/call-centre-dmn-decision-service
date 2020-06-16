@@ -20,6 +20,9 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_30970331-650B-406B-B6D7-930B0B2C04E7" name="tPhoneNumbers" isCollection="true">
+    <dmn:typeRef>tPhoneNumber</dmn:typeRef>
+  </dmn:itemDefinition>
   <dmn:decision id="_F0E4B10A-9E1A-46D3-AE1E-3F5478D065B5" name="Can Call Be Handled">
     <dmn:extensionElements/>
     <dmn:variable id="_4D8F435A-D859-4238-9409-BA94EAA25C67" name="Can Call Be Handled" typeRef="boolean"/>
@@ -90,6 +93,9 @@
     <dmn:variable id="_ECD3301D-54A2-4EA8-BC15-5A892926F0FC" name="Is Banned" typeRef="boolean"/>
     <dmn:informationRequirement id="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_27241C98-8F72-411D-826C-C71AF4E59C35">
+      <dmn:requiredDecision href="#_3D045FB6-1F81-4EBF-9176-18F9F2194A39"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
       <dmn:text>true</dmn:text>
@@ -212,6 +218,10 @@
       <dmndi:DMNEdge id="dmnedge-_1BE22492-25F4-4F4A-A79C-93B58BE3B504" dmnElementRef="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
         <di:waypoint x="439.29906542056074" y="299"/>
         <di:waypoint x="341" y="221"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_27241C98-8F72-411D-826C-C71AF4E59C35" dmnElementRef="_27241C98-8F72-411D-826C-C71AF4E59C35">
+        <di:waypoint x="190" y="196"/>
+        <di:waypoint x="291" y="196"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1" dmnElementRef="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
         <di:waypoint x="439.29906542056074" y="299"/>
