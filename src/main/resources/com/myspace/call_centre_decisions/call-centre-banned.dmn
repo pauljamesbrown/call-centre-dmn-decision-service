@@ -147,20 +147,9 @@
     <dmn:informationRequirement id="_87BF923F-D731-4FF7-83AA-0A74E430B0AE">
       <dmn:requiredInput href="#_4C59EF03-92DB-4361-AC9B-10028217F41E"/>
     </dmn:informationRequirement>
-    <dmn:knowledgeRequirement id="_4DA53795-DC27-483B-81E3-643A3F1E387C">
-      <dmn:requiredKnowledge href="#_06DEACE5-ACAA-47F5-A564-815F417756A1"/>
-    </dmn:knowledgeRequirement>
-    <dmn:invocation id="_24E57B21-977D-41C4-860D-C3F7C39103F2">
-      <dmn:literalExpression id="_560664CF-51B4-4C3A-B142-010C9AA217AE">
-        <dmn:text>Can Handle Call</dmn:text>
-      </dmn:literalExpression>
-      <dmn:binding>
-        <dmn:parameter id="_4DD3970B-5AE7-4573-A996-CA19FE4ABC26" name="call" typeRef="tCall"/>
-        <dmn:literalExpression id="_A054E935-7C9B-4FEE-A910-ADAF63A76041">
-          <dmn:text>incoming_call</dmn:text>
-        </dmn:literalExpression>
-      </dmn:binding>
-    </dmn:invocation>
+    <dmn:literalExpression id="_3229BF17-6D78-4047-B480-0B17A1842048">
+      <dmn:text>string length(incoming_call.phone.phone_number)>0</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
@@ -251,14 +240,8 @@
           <kie:ComponentWidths dmnElementRef="_CCFEB24B-46BE-465C-A463-F8B11E16A86F"/>
           <kie:ComponentWidths dmnElementRef="_BFD919E3-180E-4D6D-BDD5-B121A73B4783"/>
           <kie:ComponentWidths dmnElementRef="_C5149EBC-8192-4B85-B21C-23635A2503BA"/>
-          <kie:ComponentWidths dmnElementRef="_24E57B21-977D-41C4-860D-C3F7C39103F2">
-            <kie:width>50.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>150.0</kie:width>
-          </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_560664CF-51B4-4C3A-B142-010C9AA217AE"/>
-          <kie:ComponentWidths dmnElementRef="_A054E935-7C9B-4FEE-A910-ADAF63A76041">
-            <kie:width>150.0</kie:width>
+          <kie:ComponentWidths dmnElementRef="_3229BF17-6D78-4047-B480-0B17A1842048">
+            <kie:width>561.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
@@ -322,7 +305,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="811.4018691588785" y="168" width="100" height="50"/>
+        <dc:Bounds x="811.4018691588785" y="167" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" dmnElementRef="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" isCollapsed="false">
@@ -375,19 +358,15 @@
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_617169C5-C786-4A9D-8F2F-5A3B67076D64" dmnElementRef="_617169C5-C786-4A9D-8F2F-5A3B67076D64">
         <di:waypoint x="861.4018691588785" y="282"/>
-        <di:waypoint x="861.4018691588785" y="218"/>
+        <di:waypoint x="861.4018691588785" y="217"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_6C2191DC-1DCE-4C62-BD1D-BBAEC857CF57" dmnElementRef="_6C2191DC-1DCE-4C62-BD1D-BBAEC857CF57">
         <di:waypoint x="728.2990654205607" y="282"/>
-        <di:waypoint x="861.4018691588785" y="218"/>
+        <di:waypoint x="861.4018691588785" y="217"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_87BF923F-D731-4FF7-83AA-0A74E430B0AE" dmnElementRef="_87BF923F-D731-4FF7-83AA-0A74E430B0AE">
         <di:waypoint x="1003" y="282"/>
-        <di:waypoint x="861.4018691588785" y="218"/>
-      </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_4DA53795-DC27-483B-81E3-643A3F1E387C" dmnElementRef="_4DA53795-DC27-483B-81E3-643A3F1E387C">
-        <di:waypoint x="585" y="260.5"/>
-        <di:waypoint x="811.4018691588785" y="193"/>
+        <di:waypoint x="861.4018691588785" y="217"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_1BE22492-25F4-4F4A-A79C-93B58BE3B504" dmnElementRef="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
         <di:waypoint x="422.29906542056074" y="519"/>
