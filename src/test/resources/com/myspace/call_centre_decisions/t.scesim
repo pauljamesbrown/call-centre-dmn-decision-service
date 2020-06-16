@@ -266,6 +266,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -383,6 +384,7 @@
               <name>1|1</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;none&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
