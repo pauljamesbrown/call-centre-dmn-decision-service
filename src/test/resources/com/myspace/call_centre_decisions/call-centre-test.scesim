@@ -374,6 +374,7 @@
               <name>1|4</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -384,6 +385,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;1234&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -466,6 +468,7 @@
               <name>1592303122537</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -476,6 +479,7 @@
               <name>1592303135238</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -486,6 +490,7 @@
               <name>1592303145341</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;1234&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
