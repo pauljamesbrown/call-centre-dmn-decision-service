@@ -53,7 +53,30 @@
           <factAlias>office</factAlias>
           <expressionAlias>location</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>126.62500000000003</columnWidth>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>employees</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1592318026607</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>employees</name>
+            <className>.employees</className>
+          </factIdentifier>
+          <className>java.util.List</className>
+          <factAlias>employees</factAlias>
+          <expressionAlias>value</expressionAlias>
+          <genericTypes>
+            <string>tEmployees</string>
+          </genericTypes>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -77,7 +100,7 @@
           <expressionAlias>purpose</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>126.625</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -104,7 +127,7 @@
           <expressionAlias>phone.country_prefix</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>126.625</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -131,7 +154,7 @@
           <expressionAlias>phone.phone_number</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>126.625</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -152,7 +175,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>126.625</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -172,7 +195,7 @@
           <factAlias>Accept Call</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>126.62500000000003</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -192,7 +215,7 @@
           <factAlias>Can Call Be Handled</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>126.625</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -213,7 +236,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>126.625</columnWidth>
+          <columnWidth>114.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -328,6 +351,17 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>.employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318026607</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -439,6 +473,17 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;Rome&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>.employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318026607</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -552,6 +597,17 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>.employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318026607</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -663,6 +719,17 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;Rome&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>.employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318026607</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -776,6 +843,17 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>.employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318026607</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -888,6 +966,17 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>.employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318026607</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -999,6 +1088,17 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;Rome&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>.employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318026607</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
