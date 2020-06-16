@@ -190,9 +190,6 @@
     <dmn:informationRequirement id="_680CC878-477B-4A9B-BD61-7212EA1354A8">
       <dmn:requiredInput href="#_772E92A9-93F9-41AC-86FC-41A9BB2EA28D"/>
     </dmn:informationRequirement>
-    <dmn:informationRequirement id="_0A5806B6-81BC-4334-9CAE-8100A0CF0FA5">
-      <dmn:requiredInput href="#_E9CD1BBB-434A-43E2-A78D-059368E5B91F"/>
-    </dmn:informationRequirement>
     <dmn:knowledgeRequirement id="_713B7865-239D-489A-B975-082AB8420774">
       <dmn:requiredKnowledge href="#_507DA6BA-D84A-438A-B511-691F3623609C"/>
     </dmn:knowledgeRequirement>
@@ -237,10 +234,6 @@
     <dmn:encapsulatedDecision href="#_EA90B1D8-0AA4-4225-BD3A-570B8EE78D6B"/>
     <dmn:inputData href="#_1CB8349C-6903-43FE-9B7E-8F314813BC83"/>
   </dmn:decisionService>
-  <dmn:inputData id="_E9CD1BBB-434A-43E2-A78D-059368E5B91F" name="incoming Cal">
-    <dmn:extensionElements/>
-    <dmn:variable id="_418A5193-4D7F-4AD0-980A-28B79F649B1E" name="incoming Cal" typeRef="tCall"/>
-  </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
@@ -378,15 +371,6 @@
           <di:waypoint x="519" y="316"/>
         </dmndi:DMNDecisionServiceDividerLine>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_E9CD1BBB-434A-43E2-A78D-059368E5B91F" dmnElementRef="_E9CD1BBB-434A-43E2-A78D-059368E5B91F" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="569.2990654205607" y="431" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_A9DC4D81-B26C-4AF7-8B25-04199908FFDA" dmnElementRef="_A9DC4D81-B26C-4AF7-8B25-04199908FFDA">
         <di:waypoint x="211" y="369"/>
         <di:waypoint x="262" y="369"/>
@@ -418,10 +402,6 @@
       <dmndi:DMNEdge id="dmnedge-_713B7865-239D-489A-B975-082AB8420774" dmnElementRef="_713B7865-239D-489A-B975-082AB8420774">
         <di:waypoint x="519" y="313"/>
         <di:waypoint x="721" y="313"/>
-      </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_0A5806B6-81BC-4334-9CAE-8100A0CF0FA5" dmnElementRef="_0A5806B6-81BC-4334-9CAE-8100A0CF0FA5">
-        <di:waypoint x="619.2990654205607" y="431"/>
-        <di:waypoint x="771" y="313"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
   </dmndi:DMNDI>
