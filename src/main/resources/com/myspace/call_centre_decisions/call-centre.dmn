@@ -42,7 +42,7 @@
   </dmn:itemDefinition>
   <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="Office">
     <dmn:extensionElements/>
-    <dmn:variable id="_9D765D4A-66E4-40E3-9CB0-782E339ACBE7" name="Office"/>
+    <dmn:variable id="_9D765D4A-66E4-40E3-9CB0-782E339ACBE7" name="Office" typeRef="tEmployees"/>
   </dmn:inputData>
   <dmn:decision id="_2490A030-BAD7-4F61-85CD-8E4F0C2020BE" name="Accept Call">
     <dmn:extensionElements/>
