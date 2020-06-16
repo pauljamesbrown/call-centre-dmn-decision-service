@@ -34,6 +34,11 @@
   <dmn:itemDefinition id="_B261EFD9-FA7C-4FFD-AB52-B0279FBE8F0A" name="tEmployees" isCollection="true">
     <dmn:typeRef>tEmployee</dmn:typeRef>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_78943861-1E1A-41E6-AE46-24B1B40DF52B" name="tOffice" isCollection="false">
+    <dmn:itemComponent id="_1B986427-E508-46FE-A802-075E4816271F" name="location" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:decision id="_F0E4B10A-9E1A-46D3-AE1E-3F5478D065B5" name="Can Call Be Handled">
     <dmn:extensionElements/>
     <dmn:variable id="_4D8F435A-D859-4238-9409-BA94EAA25C67" name="Can Call Be Handled" typeRef="boolean"/>
