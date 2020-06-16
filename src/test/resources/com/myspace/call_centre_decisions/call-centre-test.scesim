@@ -334,6 +334,7 @@
               <name>1|11</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">False</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -355,7 +356,7 @@
               <name>1|3</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">[{&quot;office_Location&quot;:&quot;Rome&quot;, &quot;name&quot;:&quot;John&quot;}]</rawValue>
+            <rawValue class="string">[{&quot;office_Location&quot;:&quot;\&quot;Rome\&quot;&quot;, &quot;name&quot;:&quot;\&quot;John\&quot;&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
