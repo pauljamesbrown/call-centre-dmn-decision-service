@@ -153,7 +153,7 @@
   </dmn:inputData>
   <dmn:inputData id="_1CB8349C-6903-43FE-9B7E-8F314813BC83" name="call">
     <dmn:extensionElements/>
-    <dmn:variable id="_9CD9FE7D-8979-4E96-8981-B9B8BEB179BA" name="call"/>
+    <dmn:variable id="_9CD9FE7D-8979-4E96-8981-B9B8BEB179BA" name="call" typeRef="tCall"/>
   </dmn:inputData>
   <dmn:decision id="_50EDF7C9-F659-470D-91D3-6A5380401C09" name="Banned Phone Numbers">
     <dmn:extensionElements/>
