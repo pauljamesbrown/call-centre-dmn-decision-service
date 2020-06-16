@@ -143,7 +143,9 @@
     <dmn:informationRequirement id="_87BF923F-D731-4FF7-83AA-0A74E430B0AE">
       <dmn:requiredInput href="#_4C59EF03-92DB-4361-AC9B-10028217F41E"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:literalExpression id="_CF6250BB-C8F9-4C64-AF0F-C091975D993F">
+      <dmn:text>true</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
@@ -225,6 +227,9 @@
           <kie:ComponentWidths dmnElementRef="_CCFEB24B-46BE-465C-A463-F8B11E16A86F"/>
           <kie:ComponentWidths dmnElementRef="_BFD919E3-180E-4D6D-BDD5-B121A73B4783"/>
           <kie:ComponentWidths dmnElementRef="_C5149EBC-8192-4B85-B21C-23635A2503BA"/>
+          <kie:ComponentWidths dmnElementRef="_CF6250BB-C8F9-4C64-AF0F-C091975D993F">
+            <kie:width>130.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
           </kie:ComponentWidths>
