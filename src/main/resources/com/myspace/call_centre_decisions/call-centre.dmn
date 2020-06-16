@@ -149,9 +149,9 @@
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
-  <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="Office">
+  <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="office">
     <dmn:extensionElements/>
-    <dmn:variable id="_9D765D4A-66E4-40E3-9CB0-782E339ACBE7" name="Office" typeRef="tEmployees"/>
+    <dmn:variable id="_9D765D4A-66E4-40E3-9CB0-782E339ACBE7" name="office" typeRef="tEmployees"/>
   </dmn:inputData>
   <dmn:inputData id="_1CB8349C-6903-43FE-9B7E-8F314813BC83" name="call">
     <dmn:extensionElements/>
@@ -224,9 +224,9 @@
       </dmn:contextEntry>
     </dmn:context>
   </dmn:decision>
-  <dmn:inputData id="_772E92A9-93F9-41AC-86FC-41A9BB2EA28D" name="Employees">
+  <dmn:inputData id="_772E92A9-93F9-41AC-86FC-41A9BB2EA28D" name="employees">
     <dmn:extensionElements/>
-    <dmn:variable id="_EDED9350-3A1F-482B-A3E2-49519B2C0BED" name="Employees"/>
+    <dmn:variable id="_EDED9350-3A1F-482B-A3E2-49519B2C0BED" name="employees"/>
   </dmn:inputData>
   <dmn:decisionService id="_507DA6BA-D84A-438A-B511-691F3623609C" name="Can Handle Call">
     <dmn:extensionElements/>
@@ -237,9 +237,9 @@
     <dmn:encapsulatedDecision href="#_EA90B1D8-0AA4-4225-BD3A-570B8EE78D6B"/>
     <dmn:inputData href="#_1CB8349C-6903-43FE-9B7E-8F314813BC83"/>
   </dmn:decisionService>
-  <dmn:inputData id="_E9CD1BBB-434A-43E2-A78D-059368E5B91F" name="Incoming Cal">
+  <dmn:inputData id="_E9CD1BBB-434A-43E2-A78D-059368E5B91F" name="incoming Cal">
     <dmn:extensionElements/>
-    <dmn:variable id="_418A5193-4D7F-4AD0-980A-28B79F649B1E" name="Incoming Cal" typeRef="tCall"/>
+    <dmn:variable id="_418A5193-4D7F-4AD0-980A-28B79F649B1E" name="incoming Cal" typeRef="tCall"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
