@@ -11,7 +11,9 @@
     <dmn:informationRequirement id="_93C0DB01-3A37-48A5-A764-723EA783B242">
       <dmn:requiredDecision href="#_C787222E-273C-4BD9-A13C-480329A8B518"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:literalExpression id="_0E1AB011-D554-4416-B8DA-D9421335BF04">
+      <dmn:text></dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
@@ -32,11 +34,34 @@
   </dmn:decision>
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
     <dmn:extensionElements/>
-    <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="boolean"/>
+    <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="tCall"/>
     <dmn:informationRequirement id="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:decisionTable id="_0CE6C2AE-4890-4C98-851D-1AD1C024DD5A" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_3688A3CD-27ED-40B3-8125-EF2C97B9235A">
+        <dmn:inputExpression id="_0A6B5C3C-D627-4B09-972B-99DFB6C8A576" typeRef="string">
+          <dmn:text>Call.call.purpose</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_53BD6806-6A8C-4418-9ED1-ABC232709D7E" typeRef="tCall"/>
+      <dmn:rule id="_5572D140-EEA7-4E38-BD59-805D30251B4D">
+        <dmn:inputEntry id="_E4BB7388-857D-4B5A-9E96-5170888E27EC">
+          <dmn:text>"help"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_5772434F-BBD3-49C5-B017-9C2F0D225A27">
+          <dmn:text>true</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_E2C8BB31-E5A7-444D-8323-0D24BB3BC540">
+        <dmn:inputEntry id="_212483FD-6E75-42D5-94E1-24DC25A97335">
+          <dmn:text>"objection"</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_97512D93-BF94-4675-99F1-12DEE9B93D2F">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:decision id="_8AF90EEE-57CD-4261-991F-9637FB14D50F" name="Banned Phone Numbers">
     <dmn:extensionElements/>
@@ -66,8 +91,15 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_0E1AB011-D554-4416-B8DA-D9421335BF04"/>
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_0CE6C2AE-4890-4C98-851D-1AD1C024DD5A">
+            <kie:width>50.0</kie:width>
+            <kie:width>237.0</kie:width>
+            <kie:width>192.0</kie:width>
+            <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_1691D37F-3C2A-4E83-8824-6F8EB166C729">
             <kie:width>50.0</kie:width>
