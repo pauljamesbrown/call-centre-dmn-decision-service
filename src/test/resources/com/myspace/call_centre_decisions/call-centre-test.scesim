@@ -114,12 +114,12 @@
             </ExpressionElement>
           </expressionElements>
           <expressionIdentifier>
-            <name>1|2</name>
+            <name>1592303169011</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
             <name>employees</name>
-            <className>employees</className>
+            <className>.employees</className>
           </factIdentifier>
           <className>java.util.List</className>
           <factAlias>employees</factAlias>
@@ -356,16 +356,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>employees</name>
-              <className>employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>incoming call</name>
               <className>incoming call</className>
             </factIdentifier>
@@ -373,6 +363,7 @@
               <name>1|3</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;Help&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -403,6 +394,7 @@
               <name>1|6</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -494,6 +486,17 @@
               <name>1592303145341</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>.employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592303169011</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;office_Location&quot;:&quot;\&quot;Rome\&quot;&quot;, &quot;name&quot;:&quot;\&quot;John\&quot;&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
