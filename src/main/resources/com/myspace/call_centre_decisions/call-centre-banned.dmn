@@ -148,7 +148,7 @@
     </dmn:knowledgeRequirement>
     <dmn:context id="_BFAC58A8-4989-405D-A516-C1B5CCDF7E86">
       <dmn:contextEntry>
-        <dmn:variable id="_CBDAEDC7-B276-4074-8D5A-7637742FE988" name="Call can be handled" typeRef="tCall"/>
+        <dmn:variable id="_CBDAEDC7-B276-4074-8D5A-7637742FE988" name="call can be handled" typeRef="boolean"/>
         <dmn:invocation id="_B343D677-018E-48FA-AA4C-D470328C09AF">
           <dmn:literalExpression id="_3ED42876-95E6-4F57-BAFD-C64EA4E31E83">
             <dmn:text>Can Handle Call</dmn:text>
@@ -163,7 +163,7 @@
       </dmn:contextEntry>
       <dmn:contextEntry>
         <dmn:literalExpression id="_EF371180-4B7A-47EC-A1DF-E4FE8124BF34">
-          <dmn:text>Call Can Be Handled</dmn:text>
+          <dmn:text>call can be handled</dmn:text>
         </dmn:literalExpression>
       </dmn:contextEntry>
     </dmn:context>
