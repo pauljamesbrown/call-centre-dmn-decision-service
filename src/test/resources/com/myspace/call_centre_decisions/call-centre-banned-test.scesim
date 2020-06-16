@@ -54,7 +54,7 @@
           <expressionAlias>purpose</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>122.33333333333333</columnWidth>
+          <columnWidth>168.83333333333331</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -81,7 +81,7 @@
           <expressionAlias>phone.country_prefix</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>122.33333333333333</columnWidth>
+          <columnWidth>168.83333333333331</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -108,7 +108,7 @@
           <expressionAlias>phone.phone_number</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>122.33333333333333</columnWidth>
+          <columnWidth>168.83333333333331</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -129,7 +129,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>122.33333333333333</columnWidth>
+          <columnWidth>168.83333333333331</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -149,7 +149,7 @@
           <factAlias>Can Call Be Handled</factAlias>
           <expressionAlias>value</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>122.33333333333333</columnWidth>
+          <columnWidth>168.83333333333331</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -170,7 +170,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>122.33333333333333</columnWidth>
+          <columnWidth>168.83333333333331</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
