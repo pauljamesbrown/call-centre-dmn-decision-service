@@ -224,7 +224,7 @@
   </dmn:decision>
   <dmn:inputData id="_772E92A9-93F9-41AC-86FC-41A9BB2EA28D" name="employees">
     <dmn:extensionElements/>
-    <dmn:variable id="_EDED9350-3A1F-482B-A3E2-49519B2C0BED" name="employees" typeRef="tEmployee"/>
+    <dmn:variable id="_EDED9350-3A1F-482B-A3E2-49519B2C0BED" name="employees" typeRef="tEmployees"/>
   </dmn:inputData>
   <dmn:decisionService id="_507DA6BA-D84A-438A-B511-691F3623609C" name="Can Handle Call">
     <dmn:extensionElements/>
