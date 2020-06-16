@@ -81,7 +81,7 @@
           <expressionAlias>phone.country_prefix</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>200.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -108,7 +108,7 @@
           <expressionAlias>phone.phone_number</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>224.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -277,7 +277,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;0123&quot;</rawValue>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -398,7 +398,7 @@
               <name>1|2</name>
               <type>GIVEN</type>
             </expressionIdentifier>
-            <rawValue class="string">&quot;12345&quot;</rawValue>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
