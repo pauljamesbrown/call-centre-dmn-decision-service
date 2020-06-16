@@ -133,9 +133,17 @@
     <dmn:informationRequirement id="_195057CA-7F1A-4289-8B88-4872C9D644D1">
       <dmn:requiredInput href="#_F68499F3-7ACC-4DBF-9E49-2038F2CB19B5"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression id="_3229BF17-6D78-4047-B480-0B17A1842048">
-      <dmn:text>true</dmn:text>
-    </dmn:literalExpression>
+    <dmn:invocation id="_B98CBF93-E479-4034-98B7-24C9D7035416">
+      <dmn:literalExpression id="_8370CC3A-81C3-4AB8-A3AE-64A766FA09A6">
+        <dmn:text>Can Be Handled</dmn:text>
+      </dmn:literalExpression>
+      <dmn:binding>
+        <dmn:parameter id="_EC26CF8A-55C5-48D9-84D5-5BC9DB692D5C" name="Call" typeRef="tCall"/>
+        <dmn:literalExpression id="_F0569D77-9C77-4539-9FEC-5408B02C9CE3">
+          <dmn:text>inbound_call</dmn:text>
+        </dmn:literalExpression>
+      </dmn:binding>
+    </dmn:invocation>
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
@@ -226,8 +234,14 @@
           <kie:ComponentWidths dmnElementRef="_CCFEB24B-46BE-465C-A463-F8B11E16A86F"/>
           <kie:ComponentWidths dmnElementRef="_BFD919E3-180E-4D6D-BDD5-B121A73B4783"/>
           <kie:ComponentWidths dmnElementRef="_C5149EBC-8192-4B85-B21C-23635A2503BA"/>
-          <kie:ComponentWidths dmnElementRef="_3229BF17-6D78-4047-B480-0B17A1842048">
-            <kie:width>561.0</kie:width>
+          <kie:ComponentWidths dmnElementRef="_B98CBF93-E479-4034-98B7-24C9D7035416">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>150.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_8370CC3A-81C3-4AB8-A3AE-64A766FA09A6"/>
+          <kie:ComponentWidths dmnElementRef="_F0569D77-9C77-4539-9FEC-5408B02C9CE3">
+            <kie:width>150.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
