@@ -151,7 +151,7 @@
   </dmn:decision>
   <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="office">
     <dmn:extensionElements/>
-    <dmn:variable id="_9D765D4A-66E4-40E3-9CB0-782E339ACBE7" name="office" typeRef="tEmployees"/>
+    <dmn:variable id="_9D765D4A-66E4-40E3-9CB0-782E339ACBE7" name="office" typeRef="tOffice"/>
   </dmn:inputData>
   <dmn:inputData id="_1CB8349C-6903-43FE-9B7E-8F314813BC83" name="call">
     <dmn:extensionElements/>
