@@ -196,7 +196,7 @@
   </dmn:decision>
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
     <dmn:extensionElements/>
-    <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="string"/>
+    <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="boolean"/>
     <dmn:informationRequirement id="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
@@ -345,7 +345,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="340.29906542056074" y="553" width="100" height="50"/>
+        <dc:Bounds x="372.29906542056074" y="519" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_06DEACE5-ACAA-47F5-A564-815F417756A1" dmnElementRef="_06DEACE5-ACAA-47F5-A564-815F417756A1" isCollapsed="false">
@@ -404,7 +404,7 @@
         <di:waypoint x="811.4018691588785" y="193"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_1BE22492-25F4-4F4A-A79C-93B58BE3B504" dmnElementRef="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
-        <di:waypoint x="390.29906542056074" y="553"/>
+        <di:waypoint x="422.29906542056074" y="519"/>
         <di:waypoint x="362" y="310"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_27241C98-8F72-411D-826C-C71AF4E59C35" dmnElementRef="_27241C98-8F72-411D-826C-C71AF4E59C35">
@@ -412,7 +412,7 @@
         <di:waypoint x="312" y="285"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1" dmnElementRef="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
-        <di:waypoint x="390.29906542056074" y="553"/>
+        <di:waypoint x="422.29906542056074" y="519"/>
         <di:waypoint x="499" y="310"/>
       </dmndi:DMNEdge>
     </dmndi:DMNDiagram>
