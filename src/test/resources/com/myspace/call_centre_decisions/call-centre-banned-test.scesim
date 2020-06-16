@@ -35,52 +35,6 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>office</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>location</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1592317987747</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>office</name>
-            <className>.office</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>office</factAlias>
-          <expressionAlias>location</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>employees</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1592318026607</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>employees</name>
-            <className>.employees</className>
-          </factIdentifier>
-          <className>java.util.List</className>
-          <factAlias>employees</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes>
-            <string>tEmployees</string>
-          </genericTypes>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
               <step>incoming call</step>
             </ExpressionElement>
             <ExpressionElement>
@@ -197,26 +151,6 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>Can Call Be Handled</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1592315325063</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Can Call Be Handled</name>
-            <className>.Can Call Be Handled</className>
-          </factIdentifier>
-          <className>boolean</className>
-          <factAlias>Can Call Be Handled</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
               <step>Call</step>
             </ExpressionElement>
             <ExpressionElement>
@@ -234,27 +168,6 @@
           <className>string</className>
           <factAlias>Call</factAlias>
           <expressionAlias>purpose</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Is Banned</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|6</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Is Banned</name>
-            <className>Is Banned</className>
-          </factIdentifier>
-          <className>boolean</className>
-          <factAlias>Is Banned</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>114.0</columnWidth>
         </FactMapping>
@@ -286,17 +199,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Is Banned</name>
-              <className>Is Banned</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -308,17 +210,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>.Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592315325063</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Accept Call</name>
               <className>.Accept Call</className>
             </factIdentifier>
@@ -327,17 +218,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>office</name>
-              <className>.office</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592317987747</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -383,17 +263,6 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;help&quot;</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>employees</name>
-              <className>.employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592318026607</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -421,17 +290,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Is Banned</name>
-              <className>Is Banned</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -443,17 +301,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>.Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592315325063</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Accept Call</name>
               <className>.Accept Call</className>
             </factIdentifier>
@@ -462,17 +309,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>office</name>
-              <className>.office</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592317987747</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -518,17 +354,6 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;test&quot;</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>employees</name>
-              <className>.employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592318026607</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -556,17 +381,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Is Banned</name>
-              <className>Is Banned</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -578,17 +392,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>.Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592315325063</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Accept Call</name>
               <className>.Accept Call</className>
             </factIdentifier>
@@ -597,17 +400,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>office</name>
-              <className>.office</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592317987747</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -653,17 +445,6 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;test&quot;</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>employees</name>
-              <className>.employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592318026607</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -691,17 +472,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Is Banned</name>
-              <className>Is Banned</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -713,17 +483,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>.Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592315325063</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Accept Call</name>
               <className>.Accept Call</className>
             </factIdentifier>
@@ -732,17 +491,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>office</name>
-              <className>.office</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592317987747</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -788,17 +536,6 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;test&quot;</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>employees</name>
-              <className>.employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592318026607</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -826,17 +563,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Is Banned</name>
-              <className>Is Banned</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -848,17 +574,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>.Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592315325063</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Accept Call</name>
               <className>.Accept Call</className>
             </factIdentifier>
@@ -867,17 +582,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>office</name>
-              <className>.office</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592317987747</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -923,17 +627,6 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;test&quot;</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>employees</name>
-              <className>.employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592318026607</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -961,17 +654,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Is Banned</name>
-              <className>Is Banned</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -983,17 +665,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>.Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592315325063</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Accept Call</name>
               <className>.Accept Call</className>
             </factIdentifier>
@@ -1002,17 +673,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>office</name>
-              <className>.office</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592317987747</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1058,17 +718,6 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;test&quot;</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>employees</name>
-              <className>.employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592318026607</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -1096,17 +745,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Is Banned</name>
-              <className>Is Banned</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>#</name>
               <className>java.lang.Integer</className>
             </factIdentifier>
@@ -1118,17 +756,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>.Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592315325063</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Accept Call</name>
               <className>.Accept Call</className>
             </factIdentifier>
@@ -1137,17 +764,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>office</name>
-              <className>.office</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592317987747</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1192,17 +808,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;test&quot;</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>employees</name>
-              <className>.employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1592318026607</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-            <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
