@@ -202,7 +202,7 @@
             <dmn:text>Can Handle Call</dmn:text>
           </dmn:literalExpression>
           <dmn:binding>
-            <dmn:parameter id="_04EC4A83-934D-42FC-97CD-0BC0AAAB1C8C" name="call"/>
+            <dmn:parameter id="_04EC4A83-934D-42FC-97CD-0BC0AAAB1C8C" name="call" typeRef="tCall"/>
             <dmn:literalExpression id="_D7AB1556-EBAB-4CF2-AE8E-D67EBA5B8877">
               <dmn:text>incoming call</dmn:text>
             </dmn:literalExpression>
