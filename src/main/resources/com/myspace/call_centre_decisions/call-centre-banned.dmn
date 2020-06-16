@@ -32,7 +32,7 @@
   </dmn:decision>
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
     <dmn:extensionElements/>
-    <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="tCall"/>
+    <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="boolean"/>
     <dmn:informationRequirement id="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
