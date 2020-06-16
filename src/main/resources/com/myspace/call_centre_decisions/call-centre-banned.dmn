@@ -57,7 +57,7 @@
           <dmn:text>true</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_0989FA11-4953-4A17-B39E-87FF43128908">
-          <dmn:text>false</dmn:text>
+          <dmn:text>-</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_83880700-1E7A-4E65-8C4D-04C0CF2D4334">
           <dmn:text>false</dmn:text>
