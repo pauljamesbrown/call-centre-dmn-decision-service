@@ -123,6 +123,10 @@
       </dmn:row>
     </dmn:relation>
   </dmn:decision>
+  <dmn:inputData id="_F68499F3-7ACC-4DBF-9E49-2038F2CB19B5" name="inbound_call">
+    <dmn:extensionElements/>
+    <dmn:variable id="_D98E51A3-04B9-4C47-9C3A-9C4A8B39BE35" name="inbound_call" typeRef="tCall"/>
+  </dmn:inputData>
   <dmn:decision id="_56228369-D13E-41AC-8A74-075846916DEA" name="Accept Call">
     <dmn:extensionElements/>
     <dmn:variable id="_ADE2CE2C-B463-468B-81E3-F0E04C15C41C" name="Accept Call" typeRef="boolean"/>
@@ -132,7 +136,7 @@
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
-    <dmn:variable id="_4E1293BE-92F2-4E2B-A6E8-86CBB2550787" name="Call" typeRef="tCall"/>
+    <dmn:variable id="_4E1293BE-92F2-4E2B-A6E8-86CBB2550787" name="Call"/>
   </dmn:inputData>
   <dmn:decisionService id="_06DEACE5-ACAA-47F5-A564-815F417756A1" name="Can Handle Call">
     <dmn:extensionElements/>
@@ -249,6 +253,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="166" y="260" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_F68499F3-7ACC-4DBF-9E49-2038F2CB19B5" dmnElementRef="_F68499F3-7ACC-4DBF-9E49-2038F2CB19B5" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="802" y="267.1842105263158" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_56228369-D13E-41AC-8A74-075846916DEA" dmnElementRef="_56228369-D13E-41AC-8A74-075846916DEA" isCollapsed="false">
