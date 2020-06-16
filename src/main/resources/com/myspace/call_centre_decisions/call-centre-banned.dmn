@@ -160,7 +160,7 @@
           <dmn:binding>
             <dmn:parameter id="_205B6D2E-40DC-4C78-9CF1-2B7CD9B3642E" name="Call" typeRef="tCall"/>
             <dmn:literalExpression id="_971ED000-F96D-4076-851B-A95F2C3CE831">
-              <dmn:text>incoming call</dmn:text>
+              <dmn:text>incoming_call</dmn:text>
             </dmn:literalExpression>
           </dmn:binding>
         </dmn:invocation>
