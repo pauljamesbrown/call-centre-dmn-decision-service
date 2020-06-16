@@ -54,7 +54,7 @@
           <expressionAlias>purpose</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>149.0090322580645</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -81,7 +81,7 @@
           <expressionAlias>phone.country_prefix</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>149.0090322580645</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -108,7 +108,7 @@
           <expressionAlias>phone.phone_number</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>149.0090322580645</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -129,55 +129,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Banned Phone Numbers</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>country_prefix</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|5</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Banned Phone Numbers</name>
-            <className>Banned Phone Numbers</className>
-          </factIdentifier>
-          <className>country_prefix</className>
-          <factAlias>Banned Phone Numbers</factAlias>
-          <expressionAlias>country_prefix</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Banned Phone Numbers</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>phone_number</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|6</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Banned Phone Numbers</name>
-            <className>Banned Phone Numbers</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>Banned Phone Numbers</factAlias>
-          <expressionAlias>phone_number</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>149.0090322580645</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -198,28 +150,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>205.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>Can Call Be Handled</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|8</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Can Call Be Handled</name>
-            <className>Can Call Be Handled</className>
-          </factIdentifier>
-          <className>boolean</className>
-          <factAlias>Can Call Be Handled</factAlias>
-          <expressionAlias>value</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>267.95483870967735</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -240,7 +171,7 @@
           <expressionAlias>value</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>149.0090322580645</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -303,27 +234,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Banned Phone Numbers</name>
-              <className>Banned Phone Numbers</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-            <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Banned Phone Numbers</name>
-              <className>Banned Phone Numbers</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Call Purpose Accepted</name>
               <className>Call Purpose Accepted</className>
             </factIdentifier>
@@ -332,16 +242,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">true</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -424,26 +324,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Banned Phone Numbers</name>
-              <className>Banned Phone Numbers</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|5</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Banned Phone Numbers</name>
-              <className>Banned Phone Numbers</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|6</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>Call Purpose Accepted</name>
               <className>Call Purpose Accepted</className>
             </factIdentifier>
@@ -452,16 +332,6 @@
               <type>EXPECT</type>
             </expressionIdentifier>
             <rawValue class="string">false</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Can Call Be Handled</name>
-              <className>Can Call Be Handled</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|8</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
