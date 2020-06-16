@@ -2,9 +2,9 @@
 <dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1" xmlns:included1="https://kiegroup.org/dmn/_719816A0-D43E-4775-99A5-253C25AE9251" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_2FCC447B-D575-40DE-A45A-44A2D6E3B393" name="call-centre-banned" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1">
   <dmn:extensionElements/>
   <dmn:import id="_1D2EEA34-AD81-47BC-84BF-56A9184D846E" name="call" namespace="https://kiegroup.org/dmn/_719816A0-D43E-4775-99A5-253C25AE9251" locationURI="call-centre.dmn" importType="http://www.omg.org/spec/DMN/20180521/MODEL/"/>
-  <dmn:decision id="_0460983E-AA96-445E-A014-2760391B972D" name="Call ">
+  <dmn:decision id="_0460983E-AA96-445E-A014-2760391B972D" name="Calll Can Be Handled">
     <dmn:extensionElements/>
-    <dmn:variable id="_2723E223-0D35-446E-B7C5-BE7F6AC4F4F1" name="Call " typeRef="tCall"/>
+    <dmn:variable id="_2723E223-0D35-446E-B7C5-BE7F6AC4F4F1" name="Calll Can Be Handled" typeRef="tCall"/>
     <dmn:informationRequirement id="_5B853BEC-A4F3-4E86-A076-9FCE8C3FEF6D">
       <dmn:requiredDecision href="#_A4ABA0DA-5794-46DA-A844-B2D03742B78A"/>
     </dmn:informationRequirement>
