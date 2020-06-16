@@ -93,9 +93,9 @@
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
-  <dmn:decision id="_803D01F1-4EB9-457B-9F6B-7EAC130BD6C7" name="Call Can Be Handle">
+  <dmn:decision id="_803D01F1-4EB9-457B-9F6B-7EAC130BD6C7" name="Call Can Be Handled">
     <dmn:extensionElements/>
-    <dmn:variable id="_FFD53CA1-6F6B-4320-9981-A99B2D5E7218" name="Call Can Be Handle" typeRef="boolean"/>
+    <dmn:variable id="_FFD53CA1-6F6B-4320-9981-A99B2D5E7218" name="Call Can Be Handled" typeRef="boolean"/>
     <dmn:informationRequirement id="_2B081C09-A64B-4850-AFB0-2E394B18286B">
       <dmn:requiredDecision href="#_6A07923A-721C-4653-B197-5FFA2B0898B9"/>
     </dmn:informationRequirement>
@@ -196,9 +196,33 @@
     <dmn:knowledgeRequirement id="_713B7865-239D-489A-B975-082AB8420774">
       <dmn:requiredKnowledge href="#_507DA6BA-D84A-438A-B511-691F3623609C"/>
     </dmn:knowledgeRequirement>
-    <dmn:literalExpression id="_04888CC6-316E-4330-9171-2640E514B1EE">
-      <dmn:text></dmn:text>
-    </dmn:literalExpression>
+    <dmn:context id="_4C056935-9911-4DD8-835B-AE08375CA9D2">
+      <dmn:contextEntry>
+        <dmn:variable id="_792271D3-65BA-4D5B-9A5B-492309145E32" name="Call Can Be Handled" typeRef="boolean"/>
+        <dmn:invocation id="_75A47F92-770E-42A5-9618-5BDE41B136B5">
+          <dmn:literalExpression id="_49FB2EC9-44CA-48A0-836C-97F3619F78CA">
+            <dmn:text>Can Handle Call</dmn:text>
+          </dmn:literalExpression>
+          <dmn:binding>
+            <dmn:parameter id="_04EC4A83-934D-42FC-97CD-0BC0AAAB1C8C" name="call" typeRef="tCall"/>
+            <dmn:literalExpression id="_D7AB1556-EBAB-4CF2-AE8E-D67EBA5B8877">
+              <dmn:text>incoming call</dmn:text>
+            </dmn:literalExpression>
+          </dmn:binding>
+        </dmn:invocation>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:variable id="_3B6E0CD8-5803-4717-8C73-6916A3570603" name="Employee at the office" typeRef="boolean"/>
+        <dmn:literalExpression id="_E6014EB7-D801-47AF-A24C-B4E64ECEFC60">
+          <dmn:text>employees[office location = office.location]</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:literalExpression id="_52584309-58A8-4154-A450-7C561B91493D">
+          <dmn:text>if  Call Can Be Handled then count(Employee at the office) >0 else false</dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+    </dmn:context>
   </dmn:decision>
   <dmn:inputData id="_772E92A9-93F9-41AC-86FC-41A9BB2EA28D" name="Employees">
     <dmn:extensionElements/>
@@ -247,7 +271,26 @@
           <kie:ComponentWidths dmnElementRef="_36FED366-CFA7-49ED-B189-FF03D189BA9C"/>
           <kie:ComponentWidths dmnElementRef="_76E06DAC-A087-40A2-865B-22ACE06D718B"/>
           <kie:ComponentWidths dmnElementRef="_7F361936-902A-43C2-B9BD-3D2F9DD99B5D"/>
-          <kie:ComponentWidths dmnElementRef="_04888CC6-316E-4330-9171-2640E514B1EE"/>
+          <kie:ComponentWidths dmnElementRef="_4C056935-9911-4DD8-835B-AE08375CA9D2">
+            <kie:width>50.0</kie:width>
+            <kie:width>149.0</kie:width>
+            <kie:width>624.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_75A47F92-770E-42A5-9618-5BDE41B136B5">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>454.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_49FB2EC9-44CA-48A0-836C-97F3619F78CA"/>
+          <kie:ComponentWidths dmnElementRef="_D7AB1556-EBAB-4CF2-AE8E-D67EBA5B8877">
+            <kie:width>454.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_E6014EB7-D801-47AF-A24C-B4E64ECEFC60">
+            <kie:width>624.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_52584309-58A8-4154-A450-7C561B91493D">
+            <kie:width>624.0</kie:width>
+          </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_EA90B1D8-0AA4-4225-BD3A-570B8EE78D6B" dmnElementRef="_EA90B1D8-0AA4-4225-BD3A-570B8EE78D6B" isCollapsed="false">
