@@ -33,19 +33,23 @@
           <columnWidth>300.0</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements/>
+          <expressionElements>
+            <ExpressionElement>
+              <step>inbound</step>
+            </ExpressionElement>
+          </expressionElements>
           <expressionIdentifier>
             <name>1592323480672</name>
             <type>GIVEN</type>
           </expressionIdentifier>
           <factIdentifier>
-            <name>Empty</name>
-            <className>java.lang.Void</className>
+            <name>inbound</name>
+            <className>.inbound</className>
           </factIdentifier>
-          <className>java.lang.Void</className>
-          <factAlias>INSTANCE 8</factAlias>
-          <expressionAlias>PROPERTY 8</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <className>.inbound</className>
+          <factAlias>inbound</factAlias>
+          <expressionAlias>expression &lt;/&gt;</expressionAlias>
+          <factMappingValueType>EXPRESSION</factMappingValueType>
           <columnWidth>144.71428571428572</columnWidth>
         </FactMapping>
         <FactMapping>
@@ -283,8 +287,8 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>inbound</name>
+              <className>.inbound</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1592323480672</name>
@@ -384,8 +388,8 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
+              <name>inbound</name>
+              <className>.inbound</className>
             </factIdentifier>
             <expressionIdentifier>
               <name>1592323480672</name>
