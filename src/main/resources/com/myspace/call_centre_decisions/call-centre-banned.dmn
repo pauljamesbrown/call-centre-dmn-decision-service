@@ -105,7 +105,7 @@
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
-    <dmn:variable id="_4E1293BE-92F2-4E2B-A6E8-86CBB2550787" name="Call"/>
+    <dmn:variable id="_4E1293BE-92F2-4E2B-A6E8-86CBB2550787" name="Call" typeRef="tCall"/>
   </dmn:inputData>
   <dmn:decision id="_A4ABA0DA-5794-46DA-A844-B2D03742B78A" name="Is Banned">
     <dmn:extensionElements/>
