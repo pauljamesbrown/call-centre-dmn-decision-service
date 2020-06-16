@@ -194,9 +194,9 @@
     <dmn:extensionElements/>
     <dmn:variable id="_EDED9350-3A1F-482B-A3E2-49519B2C0BED" name="Employees"/>
   </dmn:inputData>
-  <dmn:decisionService id="_507DA6BA-D84A-438A-B511-691F3623609C" name="Can Handle Call">
+  <dmn:decisionService id="_507DA6BA-D84A-438A-B511-691F3623609C" name="Can Handle Call Decision">
     <dmn:extensionElements/>
-    <dmn:variable id="_79CC91A8-7988-480A-A6E4-A9693F74AC6D" name="Can Handle Call"/>
+    <dmn:variable id="_79CC91A8-7988-480A-A6E4-A9693F74AC6D" name="Can Handle Call Decision"/>
     <dmn:outputDecision href="#_803D01F1-4EB9-457B-9F6B-7EAC130BD6C7"/>
     <dmn:encapsulatedDecision href="#_6A07923A-721C-4653-B197-5FFA2B0898B9"/>
     <dmn:encapsulatedDecision href="#_50EDF7C9-F659-470D-91D3-6A5380401C09"/>
