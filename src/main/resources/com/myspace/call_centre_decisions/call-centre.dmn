@@ -157,7 +157,7 @@
   </dmn:inputData>
   <dmn:decision id="_50EDF7C9-F659-470D-91D3-6A5380401C09" name="Banned Phone Numbers">
     <dmn:extensionElements/>
-    <dmn:variable id="_D9818797-53C0-4C78-98F4-9EBD33B1AC9E" name="Banned Phone Numbers" typeRef="tPhoneNumbers"/>
+    <dmn:variable id="_D9818797-53C0-4C78-98F4-9EBD33B1AC9E" name="Banned Phone Numbers" typeRef="string"/>
     <dmn:relation id="_9803472E-E4DB-4D23-9BD0-42C6D4BF342A">
       <dmn:column id="_42CA11FA-F38D-49A6-AF30-74F8E643B9DC" name="country_prefix" typeRef="string"/>
       <dmn:column id="_F84BEB5A-BD36-40F2-81B4-7D827F14F814" name="phone_number" typeRef="string"/>
