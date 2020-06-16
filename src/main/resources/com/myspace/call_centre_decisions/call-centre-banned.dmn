@@ -133,7 +133,7 @@
   </dmn:decision>
   <dmn:decision id="_0F8F3C32-D57F-43E6-A5D5-C7B385CC0DC1" name="Accept ">
     <dmn:extensionElements/>
-    <dmn:variable id="_2C8C3EB8-ACB1-4764-8394-95CC726176D9" name="Accept "/>
+    <dmn:variable id="_2C8C3EB8-ACB1-4764-8394-95CC726176D9" name="Accept " typeRef="boolean"/>
     <dmn:informationRequirement id="_03FA62ED-B87F-4C88-BECC-781DFE7C8BE8">
       <dmn:requiredInput href="#_F0BD0B69-05CD-49EB-9CB2-1FC827BF041F"/>
     </dmn:informationRequirement>
@@ -143,7 +143,9 @@
     <dmn:informationRequirement id="_0A4B7812-620C-4FE5-9C3A-127A06D3AB57">
       <dmn:requiredInput href="#_C35302AB-C079-4686-AC1F-305077549037"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:literalExpression id="_F8B58ED4-B07A-4600-8A8C-01AF3522DBBA">
+      <dmn:text>true</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
@@ -225,6 +227,9 @@
           <kie:ComponentWidths dmnElementRef="_CCFEB24B-46BE-465C-A463-F8B11E16A86F"/>
           <kie:ComponentWidths dmnElementRef="_BFD919E3-180E-4D6D-BDD5-B121A73B4783"/>
           <kie:ComponentWidths dmnElementRef="_C5149EBC-8192-4B85-B21C-23635A2503BA"/>
+          <kie:ComponentWidths dmnElementRef="_F8B58ED4-B07A-4600-8A8C-01AF3522DBBA">
+            <kie:width>130.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
           </kie:ComponentWidths>
