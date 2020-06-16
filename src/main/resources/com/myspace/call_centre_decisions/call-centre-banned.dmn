@@ -23,7 +23,9 @@
     <dmn:informationRequirement id="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:literalExpression id="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
+      <dmn:text>list contains(Banned Phone Numbers, call.phone)</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
     <dmn:extensionElements/>
@@ -36,7 +38,11 @@
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
-        <kie:ComponentsWidthsExtension/>
+        <kie:ComponentsWidthsExtension>
+          <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
+            <kie:width>477.0</kie:width>
+          </kie:ComponentWidths>
+        </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_0460983E-AA96-445E-A014-2760391B972D" dmnElementRef="_0460983E-AA96-445E-A014-2760391B972D" isCollapsed="false">
         <dmndi:DMNStyle>
