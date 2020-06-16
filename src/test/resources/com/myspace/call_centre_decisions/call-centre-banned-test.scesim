@@ -151,7 +151,7 @@
           <factAlias>incoming call</factAlias>
           <expressionAlias>purpose</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>242.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -211,6 +211,29 @@
           <className>boolean</className>
           <factAlias>Can Call Be Handled</factAlias>
           <expressionAlias>value</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>Call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>purpose</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1592318936007</name>
+            <type>EXPECT</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>Call</name>
+            <className>.Call</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>Call</factAlias>
+          <expressionAlias>purpose</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
           <columnWidth>114.0</columnWidth>
         </FactMapping>
@@ -360,6 +383,17 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;1234&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call</name>
+              <className>.Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318936007</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -483,6 +517,16 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;1234&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call</name>
+              <className>.Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318936007</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -608,6 +652,16 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;1234&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call</name>
+              <className>.Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318936007</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -731,6 +785,16 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;602000002&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call</name>
+              <className>.Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318936007</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -856,6 +920,16 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;902000001&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call</name>
+              <className>.Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318936007</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -980,6 +1054,16 @@
             </expressionIdentifier>
             <rawValue class="string">&quot;902000001&quot;</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call</name>
+              <className>.Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318936007</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -1103,6 +1187,16 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">&quot;902000001&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>Call</name>
+              <className>.Call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318936007</name>
+              <type>EXPECT</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
