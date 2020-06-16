@@ -153,13 +153,13 @@
     <dmn:context id="_BFAC58A8-4989-405D-A516-C1B5CCDF7E86">
       <dmn:contextEntry>
         <dmn:variable id="_CBDAEDC7-B276-4074-8D5A-7637742FE988" name="call can be handled" typeRef="boolean"/>
-        <dmn:invocation id="_B343D677-018E-48FA-AA4C-D470328C09AF">
-          <dmn:literalExpression id="_3ED42876-95E6-4F57-BAFD-C64EA4E31E83">
-            <dmn:text>Can Handle Call</dmn:text>
+        <dmn:invocation id="_483DD1EA-E6A6-4184-ABC6-5D97EC92D3C9">
+          <dmn:literalExpression id="_3887A3AA-0E42-4E76-8F83-390CAFF207DC">
+            <dmn:text></dmn:text>
           </dmn:literalExpression>
           <dmn:binding>
-            <dmn:parameter id="_205B6D2E-40DC-4C78-9CF1-2B7CD9B3642E" name="Call" typeRef="tCall"/>
-            <dmn:literalExpression id="_971ED000-F96D-4076-851B-A95F2C3CE831">
+            <dmn:parameter id="_C99C736F-ECEC-4AA1-9BE3-8E01342FC9BD" name="call" typeRef="tCall"/>
+            <dmn:literalExpression id="_D8FF29FC-A801-459A-911C-F9BE7E919710">
               <dmn:text>incoming_call</dmn:text>
             </dmn:literalExpression>
           </dmn:binding>
@@ -264,19 +264,19 @@
           <kie:ComponentWidths dmnElementRef="_BFAC58A8-4989-405D-A516-C1B5CCDF7E86">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
-            <kie:width>320.0</kie:width>
+            <kie:width>440.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_B343D677-018E-48FA-AA4C-D470328C09AF">
+          <kie:ComponentWidths dmnElementRef="_483DD1EA-E6A6-4184-ABC6-5D97EC92D3C9">
             <kie:width>50.0</kie:width>
             <kie:width>100.0</kie:width>
-            <kie:width>150.0</kie:width>
+            <kie:width>270.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_3ED42876-95E6-4F57-BAFD-C64EA4E31E83"/>
-          <kie:ComponentWidths dmnElementRef="_971ED000-F96D-4076-851B-A95F2C3CE831">
-            <kie:width>150.0</kie:width>
+          <kie:ComponentWidths dmnElementRef="_3887A3AA-0E42-4E76-8F83-390CAFF207DC"/>
+          <kie:ComponentWidths dmnElementRef="_D8FF29FC-A801-459A-911C-F9BE7E919710">
+            <kie:width>270.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_EF371180-4B7A-47EC-A1DF-E4FE8124BF34">
-            <kie:width>320.0</kie:width>
+            <kie:width>440.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
