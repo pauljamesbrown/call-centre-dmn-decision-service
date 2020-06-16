@@ -102,7 +102,22 @@
     <dmn:informationRequirement id="_2C792FF8-721D-4DB9-8973-104A02FD39AB">
       <dmn:requiredDecision href="#_EA90B1D8-0AA4-4225-BD3A-570B8EE78D6B"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:decisionTable id="_A18FF4B0-20F8-47C7-95DA-E91738DFE232" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_09BD1690-361F-4490-A15A-A5AD4547A007">
+        <dmn:inputExpression id="_64305BE9-DB73-4250-BCA4-A5A7F7FCE883" typeRef="boolean">
+          <dmn:text>input-1</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_6A362440-A000-42A5-BCD0-3C99B18AE196" typeRef="boolean"/>
+      <dmn:rule id="_D8C82154-66CF-47DE-9FCC-2DEEE384107D">
+        <dmn:inputEntry id="_34D4B29C-2707-4425-9971-8FDA3CF2E837">
+          <dmn:text></dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_42DBA4ED-9D2A-4155-91EB-575ECFDC336B">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="Office">
     <dmn:extensionElements/>
@@ -186,6 +201,12 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_20C3DC6C-E5C7-4AE2-9D59-A1C83A1305EF"/>
           <kie:ComponentWidths dmnElementRef="_36FED366-CFA7-49ED-B189-FF03D189BA9C"/>
+          <kie:ComponentWidths dmnElementRef="_A18FF4B0-20F8-47C7-95DA-E91738DFE232">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_04888CC6-316E-4330-9171-2640E514B1EE"/>
         </kie:ComponentsWidthsExtension>
       </di:extension>
