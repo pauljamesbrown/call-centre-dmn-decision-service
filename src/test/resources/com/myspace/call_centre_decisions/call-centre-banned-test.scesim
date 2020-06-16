@@ -571,6 +571,7 @@
               <name>1592317943581</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -727,6 +728,7 @@
               <name>1592317943581</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -883,6 +885,7 @@
               <name>1592317943581</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1039,6 +1042,7 @@
               <name>1592317943581</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1195,6 +1199,7 @@
               <name>1592317943581</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -1351,6 +1356,7 @@
               <name>1592317943581</name>
               <type>EXPECT</type>
             </expressionIdentifier>
+            <rawValue class="string">true</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
