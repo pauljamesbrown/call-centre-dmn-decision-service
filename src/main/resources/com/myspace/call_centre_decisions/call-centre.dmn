@@ -35,6 +35,9 @@
   <dmn:itemDefinition id="_36C5A40B-FA9D-449B-A45A-0C4AB7742AA3" name="tEmployees" isCollection="true">
     <dmn:typeRef>tEmployee</dmn:typeRef>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_B9663637-D902-4D9F-9ABB-90CA8B5A1B2F" name="tPhoneNumbers" isCollection="true">
+    <dmn:typeRef>tPhoneNumber</dmn:typeRef>
+  </dmn:itemDefinition>
   <dmn:decision id="_BDFB2BEA-8919-41A3-856E-7E633BA3CC91" name="Call Can Be Handled">
     <dmn:extensionElements/>
     <dmn:variable id="_E50F00EF-D6B8-4C38-992C-8CA608971D23" name="Call Can Be Handled" typeRef="boolean"/>
