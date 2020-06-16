@@ -11,9 +11,22 @@
     <dmn:informationRequirement id="_93C0DB01-3A37-48A5-A764-723EA783B242">
       <dmn:requiredDecision href="#_C787222E-273C-4BD9-A13C-480329A8B518"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression id="_555DE85B-C56B-4AE0-8D93-6B27FF071D59">
-      <dmn:text></dmn:text>
-    </dmn:literalExpression>
+    <dmn:decisionTable id="_D793F28A-9B51-4346-B533-BE0632CAF14D" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_2A778D38-E5E5-48A6-AD30-0104E603E938">
+        <dmn:inputExpression id="_DD00F109-37BC-4B47-A982-C1CFE0CA61B8">
+          <dmn:text>input-1</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_1219329D-37C9-4B82-A0E8-32A096C39055" typeRef="tCall"/>
+      <dmn:rule id="_E61B364E-215B-404B-860A-9FD4E95DBB26">
+        <dmn:inputEntry id="_6C24723F-7E94-4ECE-AC39-0A4DE94C96F5">
+          <dmn:text></dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_41DF3BCC-905B-4DF8-BEA6-9170C5BDF4CE">
+          <dmn:text></dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
@@ -29,7 +42,7 @@
       <dmn:requiredDecision href="#_8AF90EEE-57CD-4261-991F-9637FB14D50F"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
-      <dmn:text>list contains(Banned Phone Numbers, call.phone)</dmn:text>
+      <dmn:text>list contains(Banned Phone Numbers, Call.call.phone)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
@@ -91,7 +104,12 @@
     <dmndi:DMNDiagram>
       <di:extension>
         <kie:ComponentsWidthsExtension>
-          <kie:ComponentWidths dmnElementRef="_555DE85B-C56B-4AE0-8D93-6B27FF071D59"/>
+          <kie:ComponentWidths dmnElementRef="_D793F28A-9B51-4346-B533-BE0632CAF14D">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
           </kie:ComponentWidths>
