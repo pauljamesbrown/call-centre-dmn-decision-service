@@ -121,7 +121,7 @@
       </dmn:rule>
       <dmn:rule id="_B9E4AEAB-6F36-4C03-92EA-39588FDF322F">
         <dmn:inputEntry id="_5B9F13F2-73C4-4958-BA71-D258398972A1">
-          <dmn:text></dmn:text>
+          <dmn:text>null</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_A8E2E4EE-EB65-4651-94BA-054A92B43CEC">
           <dmn:text>false</dmn:text>
