@@ -23,6 +23,14 @@
   <dmn:itemDefinition id="_30970331-650B-406B-B6D7-930B0B2C04E7" name="tPhoneNumbers" isCollection="true">
     <dmn:typeRef>tPhoneNumber</dmn:typeRef>
   </dmn:itemDefinition>
+  <dmn:itemDefinition id="_C45CE540-6EDE-4F38-8DE2-445F8B2FDC44" name="tEmployee" isCollection="false">
+    <dmn:itemComponent id="_7999892A-E23E-492A-9FFB-2F4870200B18" name="name" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_7DA88CCE-943F-4B84-B3F7-6F4B3EF4A134" name="office_location" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:decision id="_F0E4B10A-9E1A-46D3-AE1E-3F5478D065B5" name="Can Call Be Handled">
     <dmn:extensionElements/>
     <dmn:variable id="_4D8F435A-D859-4238-9409-BA94EAA25C67" name="Can Call Be Handled" typeRef="boolean"/>
