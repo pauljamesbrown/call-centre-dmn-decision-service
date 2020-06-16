@@ -468,6 +468,7 @@
               <name>1592318184424</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;1234&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -623,6 +624,7 @@
               <name>1592318184424</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;1234&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -778,6 +780,7 @@
               <name>1592318184424</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;1234&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -933,6 +936,7 @@
               <name>1592318184424</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;602000002&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -1088,6 +1092,7 @@
               <name>1592318184424</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;902000001&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -1243,6 +1248,7 @@
               <name>1592318184424</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;902000001&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -1398,6 +1404,7 @@
               <name>1592318184424</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;902000001&quot;</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
