@@ -25,20 +25,15 @@
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_B261B8E1-15F2-4A0D-BBFB-0CE77128EEA2" name="tEmployee" isCollection="false">
-    <dmn:itemComponent id="_72D7A05C-468A-45C7-8105-EE2645034A7E" name="office_Location" isCollection="false">
-      <dmn:typeRef>string</dmn:typeRef>
-    </dmn:itemComponent>
     <dmn:itemComponent id="_FCF6634F-F237-4D60-8FF5-84882E35B0B8" name="name" isCollection="false">
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
+    <dmn:itemComponent id="_72D7A05C-468A-45C7-8105-EE2645034A7E" name="office_Location" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:itemDefinition id="_36C5A40B-FA9D-449B-A45A-0C4AB7742AA3" name="tEmployees" isCollection="false">
-    <dmn:itemComponent id="_88032141-2A51-4127-8417-52D1E08EFF3F" name="name" isCollection="false">
-      <dmn:typeRef>string</dmn:typeRef>
-    </dmn:itemComponent>
-    <dmn:itemComponent id="_78D6C842-2079-4ACB-BD57-C5CF85B6656B" name="office_location" isCollection="false">
-      <dmn:typeRef>string</dmn:typeRef>
-    </dmn:itemComponent>
+  <dmn:itemDefinition id="_36C5A40B-FA9D-449B-A45A-0C4AB7742AA3" name="tEmployees" isCollection="true">
+    <dmn:typeRef>tEmployee</dmn:typeRef>
   </dmn:itemDefinition>
   <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="Office">
     <dmn:extensionElements/>
