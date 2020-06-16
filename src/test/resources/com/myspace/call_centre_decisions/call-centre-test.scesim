@@ -35,57 +35,6 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
-              <step>call</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>purpose</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|1</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>call</name>
-            <className>call</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>call</factAlias>
-          <expressionAlias>purpose</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
-              <step>call</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>phone</step>
-            </ExpressionElement>
-            <ExpressionElement>
-              <step>phone_number</step>
-            </ExpressionElement>
-          </expressionElements>
-          <expressionIdentifier>
-            <name>1|2</name>
-            <type>GIVEN</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>call</name>
-            <className>call</className>
-          </factIdentifier>
-          <className>string</className>
-          <factAlias>call</factAlias>
-          <expressionAlias>phone.phone_number</expressionAlias>
-          <genericTypes/>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
-          <expressionElements>
-            <ExpressionElement>
               <step>employees</step>
             </ExpressionElement>
           </expressionElements>
@@ -155,7 +104,7 @@
           <expressionAlias>phone.phone_number</expressionAlias>
           <genericTypes/>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>114.0</columnWidth>
+          <columnWidth>171.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -305,36 +254,6 @@
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
-              <name>call</name>
-              <className>call</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|1</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>call</name>
-              <className>call</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|2</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>employees</name>
-              <className>employees</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1|3</name>
-              <type>GIVEN</type>
-            </expressionIdentifier>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
               <name>incoming call</name>
               <className>incoming call</className>
             </factIdentifier>
@@ -342,6 +261,7 @@
               <name>1|4</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -352,6 +272,7 @@
               <name>1|5</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;1234&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -362,6 +283,7 @@
               <name>1|6</name>
               <type>GIVEN</type>
             </expressionIdentifier>
+            <rawValue class="string">&quot;Rome&quot;</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
@@ -423,6 +345,17 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">1</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>employees</name>
+              <className>employees</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1|3</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">[{&quot;office_Location&quot;:&quot;Rome&quot;, &quot;name&quot;:&quot;John&quot;}]</rawValue>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
