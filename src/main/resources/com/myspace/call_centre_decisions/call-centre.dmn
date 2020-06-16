@@ -145,9 +145,7 @@
     <dmn:informationRequirement id="_BB3644E9-C2BD-46B3-81B6-F42EBA998FDD">
       <dmn:requiredDecision href="#_50EDF7C9-F659-470D-91D3-6A5380401C09"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression id="_00C095AE-CA5B-4F93-8C57-F2FEF72F2588">
-      <dmn:text>true</dmn:text>
-    </dmn:literalExpression>
+    <dmn:literalExpression/>
   </dmn:decision>
   <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="Office">
     <dmn:extensionElements/>
@@ -236,9 +234,6 @@
             <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_04888CC6-316E-4330-9171-2640E514B1EE"/>
-          <kie:ComponentWidths dmnElementRef="_00C095AE-CA5B-4F93-8C57-F2FEF72F2588">
-            <kie:width>130.0</kie:width>
-          </kie:ComponentWidths>
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_6A07923A-721C-4653-B197-5FFA2B0898B9" dmnElementRef="_6A07923A-721C-4653-B197-5FFA2B0898B9" isCollapsed="false">
