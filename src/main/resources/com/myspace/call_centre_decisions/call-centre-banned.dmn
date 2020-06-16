@@ -38,8 +38,8 @@
     </dmn:informationRequirement>
     <dmn:decisionTable id="_0CE6C2AE-4890-4C98-851D-1AD1C024DD5A" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
       <dmn:input id="_3688A3CD-27ED-40B3-8125-EF2C97B9235A">
-        <dmn:inputExpression id="_0A6B5C3C-D627-4B09-972B-99DFB6C8A576" typeRef="string">
-          <dmn:text>Call.call.purpose</dmn:text>
+        <dmn:inputExpression id="_0A6B5C3C-D627-4B09-972B-99DFB6C8A576" typeRef="tCall">
+          <dmn:text>Call.purpose</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_53BD6806-6A8C-4418-9ED1-ABC232709D7E" typeRef="tCall"/>
