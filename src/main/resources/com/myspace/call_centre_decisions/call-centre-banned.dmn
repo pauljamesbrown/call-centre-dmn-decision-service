@@ -86,9 +86,6 @@
     <dmn:informationRequirement id="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
-    <dmn:informationRequirement id="_B4ACE938-2B42-4A8B-9538-A28987EA1067">
-      <dmn:requiredDecision href="#_8AF90EEE-57CD-4261-991F-9637FB14D50F"/>
-    </dmn:informationRequirement>
     <dmn:literalExpression id="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
       <dmn:text>list contains(Banned Phone Numbers, Call.phone)</dmn:text>
     </dmn:literalExpression>
@@ -124,30 +121,6 @@
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
-  <dmn:decision id="_8AF90EEE-57CD-4261-991F-9637FB14D50F" name="Banned Phone Numbers">
-    <dmn:extensionElements/>
-    <dmn:variable id="_4BED3D4F-6483-4262-A2F4-2E985977C70B" name="Banned Phone Numbers" typeRef="call.tCall"/>
-    <dmn:relation id="_1691D37F-3C2A-4E83-8824-6F8EB166C729">
-      <dmn:column id="_20F6472C-9B10-439E-A81A-B7874581A307" name="country_prefix" typeRef="string"/>
-      <dmn:column id="_347614C3-B8CC-4832-9A46-7343B84D6648" name="phone_number" typeRef="string"/>
-      <dmn:row id="_5845F4C3-676B-482A-BA35-710E000E61FD">
-        <dmn:literalExpression id="_6BD97FC0-8133-410A-A6FA-E759E53D9542">
-          <dmn:text>"+420"</dmn:text>
-        </dmn:literalExpression>
-        <dmn:literalExpression id="_97074A51-0C8A-4748-AB39-C06162A7C6FD">
-          <dmn:text>"602000002"</dmn:text>
-        </dmn:literalExpression>
-      </dmn:row>
-      <dmn:row id="_1C1379F0-1DA1-4EA1-9E4F-21C56FE89F7D">
-        <dmn:literalExpression id="_A33EEA6D-F5E9-483F-8727-A547114A91CF">
-          <dmn:text>"+421"</dmn:text>
-        </dmn:literalExpression>
-        <dmn:literalExpression id="_3367AA72-F276-4BE9-AC78-7147C1573794">
-          <dmn:text>"902000001"</dmn:text>
-        </dmn:literalExpression>
-      </dmn:row>
-    </dmn:relation>
-  </dmn:decision>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
       <di:extension>
@@ -168,15 +141,6 @@
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_1691D37F-3C2A-4E83-8824-6F8EB166C729">
-            <kie:width>50.0</kie:width>
-            <kie:width>227.0</kie:width>
-            <kie:width>309.0</kie:width>
-          </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_6BD97FC0-8133-410A-A6FA-E759E53D9542"/>
-          <kie:ComponentWidths dmnElementRef="_97074A51-0C8A-4748-AB39-C06162A7C6FD"/>
-          <kie:ComponentWidths dmnElementRef="_A33EEA6D-F5E9-483F-8727-A547114A91CF"/>
-          <kie:ComponentWidths dmnElementRef="_3367AA72-F276-4BE9-AC78-7147C1573794"/>
         </kie:ComponentsWidthsExtension>
       </di:extension>
       <dmndi:DMNShape id="dmnshape-_F0E4B10A-9E1A-46D3-AE1E-3F5478D065B5" dmnElementRef="_F0E4B10A-9E1A-46D3-AE1E-3F5478D065B5" isCollapsed="false">
@@ -215,15 +179,6 @@
         <dc:Bounds x="487" y="171" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
-      <dmndi:DMNShape id="dmnshape-_8AF90EEE-57CD-4261-991F-9637FB14D50F" dmnElementRef="_8AF90EEE-57CD-4261-991F-9637FB14D50F" isCollapsed="false">
-        <dmndi:DMNStyle>
-          <dmndi:FillColor red="255" green="255" blue="255"/>
-          <dmndi:StrokeColor red="0" green="0" blue="0"/>
-          <dmndi:FontColor red="0" green="0" blue="0"/>
-        </dmndi:DMNStyle>
-        <dc:Bounds x="115" y="176" width="100" height="50"/>
-        <dmndi:DMNLabel/>
-      </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_FC69FCCC-17C2-4BFC-9DF8-1890DA36935F" dmnElementRef="_FC69FCCC-17C2-4BFC-9DF8-1890DA36935F">
         <di:waypoint x="341" y="171"/>
         <di:waypoint x="439" y="86"/>
@@ -235,10 +190,6 @@
       <dmndi:DMNEdge id="dmnedge-_1BE22492-25F4-4F4A-A79C-93B58BE3B504" dmnElementRef="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
         <di:waypoint x="439.29906542056074" y="299"/>
         <di:waypoint x="341" y="221"/>
-      </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_B4ACE938-2B42-4A8B-9538-A28987EA1067" dmnElementRef="_B4ACE938-2B42-4A8B-9538-A28987EA1067">
-        <di:waypoint x="215" y="201"/>
-        <di:waypoint x="291" y="196"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1" dmnElementRef="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
         <di:waypoint x="439.29906542056074" y="299"/>
