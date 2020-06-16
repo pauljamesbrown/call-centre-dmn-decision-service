@@ -237,7 +237,7 @@
   </dmn:decisionService>
   <dmn:inputData id="_7CEFED91-5915-436C-AFA6-54ED5F182830" name="incoming call">
     <dmn:extensionElements/>
-    <dmn:variable id="_DCED5ACC-F464-403E-AB2F-443CE3240B85" name="incoming call"/>
+    <dmn:variable id="_DCED5ACC-F464-403E-AB2F-443CE3240B85" name="incoming call" typeRef="tCall"/>
   </dmn:inputData>
   <dmndi:DMNDI>
     <dmndi:DMNDiagram>
@@ -382,7 +382,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="583.2990654205607" y="391.3421052631579" width="100" height="50"/>
+        <dc:Bounds x="583.5981308411215" y="391.3421052631579" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_A9DC4D81-B26C-4AF7-8B25-04199908FFDA" dmnElementRef="_A9DC4D81-B26C-4AF7-8B25-04199908FFDA">
@@ -414,7 +414,7 @@
         <di:waypoint x="771" y="338"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_74D3A432-1AB8-4D2F-B4E2-085C4A0C3BBC" dmnElementRef="_74D3A432-1AB8-4D2F-B4E2-085C4A0C3BBC">
-        <di:waypoint x="633.2990654205607" y="391.3421052631579"/>
+        <di:waypoint x="633.5981308411215" y="391.3421052631579"/>
         <di:waypoint x="771" y="338"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_713B7865-239D-489A-B975-082AB8420774" dmnElementRef="_713B7865-239D-489A-B975-082AB8420774">
