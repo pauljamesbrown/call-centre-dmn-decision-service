@@ -146,9 +146,27 @@
     <dmn:knowledgeRequirement id="_4DA53795-DC27-483B-81E3-643A3F1E387C">
       <dmn:requiredKnowledge href="#_06DEACE5-ACAA-47F5-A564-815F417756A1"/>
     </dmn:knowledgeRequirement>
-    <dmn:literalExpression id="_CF6250BB-C8F9-4C64-AF0F-C091975D993F">
-      <dmn:text>true</dmn:text>
-    </dmn:literalExpression>
+    <dmn:context id="_BFAC58A8-4989-405D-A516-C1B5CCDF7E86">
+      <dmn:contextEntry>
+        <dmn:variable id="_CBDAEDC7-B276-4074-8D5A-7637742FE988" name="Call Can Be Handled" typeRef="boolean"/>
+        <dmn:invocation id="_B343D677-018E-48FA-AA4C-D470328C09AF">
+          <dmn:literalExpression id="_3ED42876-95E6-4F57-BAFD-C64EA4E31E83">
+            <dmn:text>Can Handle Call</dmn:text>
+          </dmn:literalExpression>
+          <dmn:binding>
+            <dmn:parameter id="_205B6D2E-40DC-4C78-9CF1-2B7CD9B3642E" name="Call" typeRef="tCall"/>
+            <dmn:literalExpression id="_971ED000-F96D-4076-851B-A95F2C3CE831">
+              <dmn:text>incoming call</dmn:text>
+            </dmn:literalExpression>
+          </dmn:binding>
+        </dmn:invocation>
+      </dmn:contextEntry>
+      <dmn:contextEntry>
+        <dmn:literalExpression id="_EF371180-4B7A-47EC-A1DF-E4FE8124BF34">
+          <dmn:text></dmn:text>
+        </dmn:literalExpression>
+      </dmn:contextEntry>
+    </dmn:context>
   </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
@@ -240,8 +258,22 @@
           <kie:ComponentWidths dmnElementRef="_CCFEB24B-46BE-465C-A463-F8B11E16A86F"/>
           <kie:ComponentWidths dmnElementRef="_BFD919E3-180E-4D6D-BDD5-B121A73B4783"/>
           <kie:ComponentWidths dmnElementRef="_C5149EBC-8192-4B85-B21C-23635A2503BA"/>
-          <kie:ComponentWidths dmnElementRef="_CF6250BB-C8F9-4C64-AF0F-C091975D993F">
-            <kie:width>130.0</kie:width>
+          <kie:ComponentWidths dmnElementRef="_BFAC58A8-4989-405D-A516-C1B5CCDF7E86">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>320.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_B343D677-018E-48FA-AA4C-D470328C09AF">
+            <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>150.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_3ED42876-95E6-4F57-BAFD-C64EA4E31E83"/>
+          <kie:ComponentWidths dmnElementRef="_971ED000-F96D-4076-851B-A95F2C3CE831">
+            <kie:width>150.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_EF371180-4B7A-47EC-A1DF-E4FE8124BF34">
+            <kie:width>320.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
             <kie:width>477.0</kie:width>
