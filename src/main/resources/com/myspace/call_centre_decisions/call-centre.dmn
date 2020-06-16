@@ -47,7 +47,9 @@
     <dmn:informationRequirement id="_CF8561B7-4677-42E8-988E-1859A68D26F6">
       <dmn:requiredInput href="#_1CB8349C-6903-43FE-9B7E-8F314813BC83"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:literalExpression id="_BA4210AA-9D76-4083-AF68-891EC671FAE8">
+      <dmn:text>list contains(Banned Phone Numbers, call.phone)</dmn:text>
+    </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_6A07923A-721C-4653-B197-5FFA2B0898B9" name="Call Purpose Accepted">
     <dmn:extensionElements/>
@@ -218,6 +220,9 @@
             <kie:width>100.0</kie:width>
             <kie:width>210.0</kie:width>
             <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
+          <kie:ComponentWidths dmnElementRef="_BA4210AA-9D76-4083-AF68-891EC671FAE8">
+            <kie:width>534.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_9803472E-E4DB-4D23-9BD0-42C6D4BF342A">
             <kie:width>50.0</kie:width>
