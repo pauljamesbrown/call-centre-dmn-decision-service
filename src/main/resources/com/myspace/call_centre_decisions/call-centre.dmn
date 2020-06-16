@@ -40,7 +40,7 @@
   </dmn:itemDefinition>
   <dmn:decision id="_EA90B1D8-0AA4-4225-BD3A-570B8EE78D6B" name="Is Banned">
     <dmn:extensionElements/>
-    <dmn:variable id="_558F14B0-D08B-4F6D-A32A-5FC8757B1B2F" name="Is Banned"/>
+    <dmn:variable id="_558F14B0-D08B-4F6D-A32A-5FC8757B1B2F" name="Is Banned" typeRef="boolean"/>
     <dmn:informationRequirement id="_A9DC4D81-B26C-4AF7-8B25-04199908FFDA">
       <dmn:requiredDecision href="#_50EDF7C9-F659-470D-91D3-6A5380401C09"/>
     </dmn:informationRequirement>
