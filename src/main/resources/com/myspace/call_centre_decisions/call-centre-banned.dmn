@@ -76,6 +76,11 @@
       </dmn:rule>
     </dmn:decisionTable>
   </dmn:decision>
+  <dmn:decision id="_3D045FB6-1F81-4EBF-9176-18F9F2194A39" name="Banned Phone Numbers">
+    <dmn:extensionElements/>
+    <dmn:variable id="_65A78136-3D2F-4DB6-8B9B-7A71B5AB3F31" name="Banned Phone Numbers" typeRef="tPhoneNumber"/>
+    <dmn:literalExpression/>
+  </dmn:decision>
   <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
     <dmn:extensionElements/>
     <dmn:variable id="_4E1293BE-92F2-4E2B-A6E8-86CBB2550787" name="Call" typeRef="tCall"/>
@@ -176,6 +181,15 @@
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
         <dc:Bounds x="291" y="171" width="100" height="50"/>
+        <dmndi:DMNLabel/>
+      </dmndi:DMNShape>
+      <dmndi:DMNShape id="dmnshape-_3D045FB6-1F81-4EBF-9176-18F9F2194A39" dmnElementRef="_3D045FB6-1F81-4EBF-9176-18F9F2194A39" isCollapsed="false">
+        <dmndi:DMNStyle>
+          <dmndi:FillColor red="255" green="255" blue="255"/>
+          <dmndi:StrokeColor red="0" green="0" blue="0"/>
+          <dmndi:FontColor red="0" green="0" blue="0"/>
+        </dmndi:DMNStyle>
+        <dc:Bounds x="90" y="171" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_C787222E-273C-4BD9-A13C-480329A8B518" dmnElementRef="_C787222E-273C-4BD9-A13C-480329A8B518" isCollapsed="false">
