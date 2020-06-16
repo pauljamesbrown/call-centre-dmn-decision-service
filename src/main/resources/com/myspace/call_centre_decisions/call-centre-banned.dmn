@@ -1,7 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1" xmlns:included1="https://kiegroup.org/dmn/_719816A0-D43E-4775-99A5-253C25AE9251" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_2FCC447B-D575-40DE-A45A-44A2D6E3B393" name="call-centre-banned" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1">
+<dmn:definitions xmlns:dmn="http://www.omg.org/spec/DMN/20180521/MODEL/" xmlns="https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1" xmlns:di="http://www.omg.org/spec/DMN/20180521/DI/" xmlns:kie="http://www.drools.org/kie/dmn/1.2" xmlns:feel="http://www.omg.org/spec/DMN/20180521/FEEL/" xmlns:dmndi="http://www.omg.org/spec/DMN/20180521/DMNDI/" xmlns:dc="http://www.omg.org/spec/DMN/20180521/DC/" id="_2FCC447B-D575-40DE-A45A-44A2D6E3B393" name="call-centre-banned" expressionLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" typeLanguage="http://www.omg.org/spec/DMN/20180521/FEEL/" namespace="https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1">
   <dmn:extensionElements/>
-  <dmn:import id="_1D2EEA34-AD81-47BC-84BF-56A9184D846E" name="call" namespace="https://kiegroup.org/dmn/_719816A0-D43E-4775-99A5-253C25AE9251" locationURI="call-centre.dmn" importType="http://www.omg.org/spec/DMN/20180521/MODEL/"/>
+  <dmn:itemDefinition id="_D7AD1DAF-D545-48A1-B888-6832FFF699DA" name="tCall" isCollection="false">
+    <dmn:itemComponent id="_A6FB02FA-5622-479C-8678-C51AE77F88B2" name="phone" isCollection="false">
+      <dmn:typeRef>tPhoneNumber</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
+  <dmn:itemDefinition id="_10CBECC7-9E7E-446F-9E15-8A6B86DF1670" name="tPhoneNumber" isCollection="false">
+    <dmn:itemComponent id="_98F65AFA-7BCB-4CBE-A593-9A3C8E5A003C" name="phone_number" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+      <dmn:allowedValues kie:constraintType="expression" id="_60117DFF-ECCA-475D-A5A3-4E1E2AA1559E">
+        <dmn:text>"+421","+420"</dmn:text>
+      </dmn:allowedValues>
+    </dmn:itemComponent>
+    <dmn:itemComponent id="_1FDF4E8D-44AE-4272-99C6-CC6FD5572F61" name="country_prefix" isCollection="false">
+      <dmn:typeRef>string</dmn:typeRef>
+    </dmn:itemComponent>
+  </dmn:itemDefinition>
   <dmn:decision id="_F0E4B10A-9E1A-46D3-AE1E-3F5478D065B5" name="Decision-1">
     <dmn:extensionElements/>
     <dmn:variable id="_4D8F435A-D859-4238-9409-BA94EAA25C67" name="Decision-1" typeRef="boolean"/>
