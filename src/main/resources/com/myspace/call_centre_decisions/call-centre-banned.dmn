@@ -122,7 +122,7 @@
   </dmn:decision>
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
     <dmn:extensionElements/>
-    <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="boolean"/>
+    <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="string"/>
     <dmn:informationRequirement id="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
@@ -132,7 +132,11 @@
           <dmn:text>Call.purpose</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_CB31EE6D-7A74-4FF3-AB2D-5F241EFE429A" typeRef="boolean"/>
+      <dmn:output id="_CB31EE6D-7A74-4FF3-AB2D-5F241EFE429A" typeRef="string">
+        <dmn:defaultOutputEntry id="_E2CD4F31-3057-42C1-A6EF-AC0FD3CFFA13">
+          <dmn:text>false</dmn:text>
+        </dmn:defaultOutputEntry>
+      </dmn:output>
       <dmn:rule id="_DF0D3B11-1BA2-46DA-BD5E-DF0066A49BAA">
         <dmn:inputEntry id="_5A844730-A736-4621-8C33-DB8589FB7BEA">
           <dmn:text>"help"</dmn:text>
@@ -155,14 +159,6 @@
         </dmn:inputEntry>
         <dmn:outputEntry id="_A8E2E4EE-EB65-4651-94BA-054A92B43CEC">
           <dmn:text>false</dmn:text>
-        </dmn:outputEntry>
-      </dmn:rule>
-      <dmn:rule id="_19AB95FF-E3B7-4C71-8E40-9554B1D009DB">
-        <dmn:inputEntry id="_0AEEE9BD-FCBB-4383-85A5-DE46EB107AB9">
-          <dmn:text>-</dmn:text>
-        </dmn:inputEntry>
-        <dmn:outputEntry id="_12B39758-9AAC-46D7-9841-51221CC43BC3">
-          <dmn:text></dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
