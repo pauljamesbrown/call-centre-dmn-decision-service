@@ -116,13 +116,35 @@
       <dmn:output id="_ABFAD8EA-6B4D-4B0F-9048-39ED6E0DD07E" typeRef="boolean"/>
       <dmn:rule id="_654EAC8B-C784-44F8-8D75-3CFEC9F1747D">
         <dmn:inputEntry id="_43139E74-4082-4CA1-A019-09B2FA23841A">
-          <dmn:text></dmn:text>
+          <dmn:text>false</dmn:text>
         </dmn:inputEntry>
         <dmn:inputEntry id="_04866110-395F-48FA-B344-D9CFB5F54290">
-          <dmn:text></dmn:text>
+          <dmn:text>true</dmn:text>
         </dmn:inputEntry>
         <dmn:outputEntry id="_2A6DE509-1DCF-4A44-AB84-5CA7F863050B">
-          <dmn:text></dmn:text>
+          <dmn:text>true</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_0B3761A5-98F7-433A-9944-C5F7530582D5">
+        <dmn:inputEntry id="_8E243C0E-34B7-4D64-B5C1-AAFEBC81B7D2">
+          <dmn:text>true</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_3298AC98-C630-4C9A-A559-950256F536FC">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_86246870-A206-4E46-9DBB-59C9225A9D14">
+          <dmn:text>false</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_37E34E4E-5602-4026-A62C-557CAA5318AC">
+        <dmn:inputEntry id="_C9E5499E-0972-458A-B5CB-36B740EDE690">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_C8A1D5D4-6FC4-4B50-BEBE-F1A8F93B37A5">
+          <dmn:text>false</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_0D1E96FD-CABE-48F5-B14F-2C0635DE2989">
+          <dmn:text>false</dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
     </dmn:decisionTable>
