@@ -81,6 +81,81 @@
         <FactMapping>
           <expressionElements>
             <ExpressionElement>
+              <step>incoming call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>country_prefix</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1592318175298</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>incoming call</name>
+            <className>.incoming call</className>
+          </factIdentifier>
+          <className>country_prefix</className>
+          <factAlias>incoming call</factAlias>
+          <expressionAlias>phone.country_prefix</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>167.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>incoming call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>phone_number</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1592318184424</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>incoming call</name>
+            <className>.incoming call</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>incoming call</factAlias>
+          <expressionAlias>phone.phone_number</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>159.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
+              <step>incoming call</step>
+            </ExpressionElement>
+            <ExpressionElement>
+              <step>purpose</step>
+            </ExpressionElement>
+          </expressionElements>
+          <expressionIdentifier>
+            <name>1592318164332</name>
+            <type>GIVEN</type>
+          </expressionIdentifier>
+          <factIdentifier>
+            <name>incoming call</name>
+            <className>.incoming call</className>
+          </factIdentifier>
+          <className>string</className>
+          <factAlias>incoming call</factAlias>
+          <expressionAlias>purpose</expressionAlias>
+          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
+          <columnWidth>114.0</columnWidth>
+        </FactMapping>
+        <FactMapping>
+          <expressionElements>
+            <ExpressionElement>
               <step>Call</step>
             </ExpressionElement>
             <ExpressionElement>
@@ -362,6 +437,38 @@
             </expressionIdentifier>
             <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318164332</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318175298</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318184424</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -484,6 +591,38 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318164332</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;none&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318175298</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+424&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318184424</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -608,6 +747,38 @@
             </expressionIdentifier>
             <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318164332</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;objection&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318175298</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318184424</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -730,6 +901,38 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318164332</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;objection&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318175298</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318184424</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
@@ -854,6 +1057,38 @@
             </expressionIdentifier>
             <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318164332</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;objection&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318175298</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+420&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318184424</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -977,6 +1212,38 @@
             </expressionIdentifier>
             <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
           </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318164332</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;help&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318175298</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+421&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318184424</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -1099,6 +1366,38 @@
               <type>GIVEN</type>
             </expressionIdentifier>
             <rawValue class="string">[{&quot;name&quot;:&quot;\&quot;John\&quot;&quot;, &quot;office_location&quot;:&quot;\&quot;Rome\&quot;&quot;}]</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318164332</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;objection&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318175298</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
+            <rawValue class="string">&quot;+421&quot;</rawValue>
+          </FactMappingValue>
+          <FactMappingValue>
+            <factIdentifier>
+              <name>incoming call</name>
+              <className>.incoming call</className>
+            </factIdentifier>
+            <expressionIdentifier>
+              <name>1592318184424</name>
+              <type>GIVEN</type>
+            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
