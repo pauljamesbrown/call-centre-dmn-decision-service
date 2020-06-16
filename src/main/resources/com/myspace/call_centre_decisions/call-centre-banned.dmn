@@ -86,9 +86,6 @@
     <dmn:informationRequirement id="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
-    <dmn:informationRequirement id="_F7222FA3-1D0B-4684-823C-FB51526AA05F">
-      <dmn:requiredDecision href="#_8AF90EEE-57CD-4261-991F-9637FB14D50F"/>
-    </dmn:informationRequirement>
     <dmn:literalExpression id="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
       <dmn:text>list contains(Banned Phone Numbers, Call.phone)</dmn:text>
     </dmn:literalExpression>
@@ -170,8 +167,8 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_1691D37F-3C2A-4E83-8824-6F8EB166C729">
             <kie:width>50.0</kie:width>
-            <kie:width>100.0</kie:width>
-            <kie:width>100.0</kie:width>
+            <kie:width>227.0</kie:width>
+            <kie:width>309.0</kie:width>
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_6BD97FC0-8133-410A-A6FA-E759E53D9542"/>
           <kie:ComponentWidths dmnElementRef="_97074A51-0C8A-4748-AB39-C06162A7C6FD"/>
@@ -221,7 +218,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="115" y="171" width="100" height="50"/>
+        <dc:Bounds x="115" y="176" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNEdge id="dmnedge-_FC69FCCC-17C2-4BFC-9DF8-1890DA36935F" dmnElementRef="_FC69FCCC-17C2-4BFC-9DF8-1890DA36935F">
@@ -235,10 +232,6 @@
       <dmndi:DMNEdge id="dmnedge-_1BE22492-25F4-4F4A-A79C-93B58BE3B504" dmnElementRef="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
         <di:waypoint x="439.29906542056074" y="299"/>
         <di:waypoint x="341" y="221"/>
-      </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_F7222FA3-1D0B-4684-823C-FB51526AA05F" dmnElementRef="_F7222FA3-1D0B-4684-823C-FB51526AA05F">
-        <di:waypoint x="215" y="196"/>
-        <di:waypoint x="291" y="196"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1" dmnElementRef="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
         <di:waypoint x="439.29906542056074" y="299"/>
