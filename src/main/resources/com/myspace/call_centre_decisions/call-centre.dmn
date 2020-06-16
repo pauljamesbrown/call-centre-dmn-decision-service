@@ -82,14 +82,59 @@
   </dmn:decision>
   <dmn:decision id="_803D01F1-4EB9-457B-9F6B-7EAC130BD6C7" name="Can Handle Call">
     <dmn:extensionElements/>
-    <dmn:variable id="_FFD53CA1-6F6B-4320-9981-A99B2D5E7218" name="Can Handle Call"/>
+    <dmn:variable id="_FFD53CA1-6F6B-4320-9981-A99B2D5E7218" name="Can Handle Call" typeRef="boolean"/>
     <dmn:informationRequirement id="_B5CA6732-51A8-4B4A-AD6A-2165DB13406F">
       <dmn:requiredDecision href="#_1E24BD72-01B9-4F0A-AA14-E709E0B77902"/>
     </dmn:informationRequirement>
     <dmn:informationRequirement id="_2B081C09-A64B-4850-AFB0-2E394B18286B">
       <dmn:requiredDecision href="#_6A07923A-721C-4653-B197-5FFA2B0898B9"/>
     </dmn:informationRequirement>
-    <dmn:literalExpression/>
+    <dmn:decisionTable id="_387EB416-6720-4426-8604-5255DB07769C" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_F948F97E-EFA2-4906-BA49-FA0E5C69055A">
+        <dmn:inputExpression id="_F129E475-FF56-46DD-9704-B411EAEF7FA2" typeRef="boolean">
+          <dmn:text>Is Banned</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:input id="_1078A33C-E218-4112-924C-8996CACF89F2">
+        <dmn:inputExpression id="_A7B729C3-B093-40CB-A7F9-E28CE71F43D5" typeRef="boolean">
+          <dmn:text>Call Purpose Accepted</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_4C9ACB54-94C1-4940-9B7D-C8EA652FA046" typeRef="boolean"/>
+      <dmn:rule id="_9783E7B8-3A3E-4C21-96C7-0C1294C995CD">
+        <dmn:inputEntry id="_9922BD52-D085-4B5F-8587-15E4E821F097">
+          <dmn:text>false</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_9820DE80-301E-4A0B-83C1-DE214DEA3CD6">
+          <dmn:text>true</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_67B5D2D2-BA6A-45B5-83AD-DF4D18DAE639">
+          <dmn:text>true</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_E14AD368-265B-43DD-887D-D4DC0D9F611F">
+        <dmn:inputEntry id="_109F90F1-3D0F-4E0A-A70C-FAB6DBDFCE78">
+          <dmn:text>true</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_AD43599B-0F63-44FE-A58F-FC09DFA2F9C7">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_90877454-9134-447B-9FFD-91C78452BADB">
+          <dmn:text>false</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+      <dmn:rule id="_3033E629-26CB-417F-8BD1-0B7339363C47">
+        <dmn:inputEntry id="_B59238FE-0F03-4E04-A14C-1DCDB1A05E3D">
+          <dmn:text>-</dmn:text>
+        </dmn:inputEntry>
+        <dmn:inputEntry id="_0192FBC9-F422-4130-BFB7-7FD1E4A1A425">
+          <dmn:text>false</dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_07108159-1534-4A79-803B-B02EAA8B2F7F">
+          <dmn:text>false</dmn:text>
+        </dmn:outputEntry>
+      </dmn:rule>
+    </dmn:decisionTable>
   </dmn:decision>
   <dmn:decision id="_1E24BD72-01B9-4F0A-AA14-E709E0B77902" name="Is Banned">
     <dmn:extensionElements/>
@@ -183,6 +228,13 @@
           </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_20C3DC6C-E5C7-4AE2-9D59-A1C83A1305EF"/>
           <kie:ComponentWidths dmnElementRef="_36FED366-CFA7-49ED-B189-FF03D189BA9C"/>
+          <kie:ComponentWidths dmnElementRef="_387EB416-6720-4426-8604-5255DB07769C">
+            <kie:width>50.0</kie:width>
+            <kie:width>170.0</kie:width>
+            <kie:width>100.0</kie:width>
+            <kie:width>250.0</kie:width>
+            <kie:width>100.0</kie:width>
+          </kie:ComponentWidths>
           <kie:ComponentWidths dmnElementRef="_04888CC6-316E-4330-9171-2640E514B1EE"/>
           <kie:ComponentWidths dmnElementRef="_3E5EE7A4-A62B-4D3F-BCB1-A0E8C0C57BEA">
             <kie:width>437.0</kie:width>
