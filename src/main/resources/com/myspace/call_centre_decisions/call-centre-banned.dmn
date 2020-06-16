@@ -45,7 +45,7 @@
   </dmn:inputData>
   <dmn:decision id="_F0E4B10A-9E1A-46D3-AE1E-3F5478D065B5" name="Can Call Be Handled">
     <dmn:extensionElements/>
-    <dmn:variable id="_4D8F435A-D859-4238-9409-BA94EAA25C67" name="Can Call Be Handled" typeRef="tCall"/>
+    <dmn:variable id="_4D8F435A-D859-4238-9409-BA94EAA25C67" name="Can Call Be Handled" typeRef="boolean"/>
     <dmn:informationRequirement id="_FC69FCCC-17C2-4BFC-9DF8-1890DA36935F">
       <dmn:requiredDecision href="#_A4ABA0DA-5794-46DA-A844-B2D03742B78A"/>
     </dmn:informationRequirement>
@@ -63,7 +63,7 @@
           <dmn:text>Call Purpose Accepted</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_D0131D91-5872-4DC9-B30C-F1B3FB4E85C5" typeRef="tCall"/>
+      <dmn:output id="_D0131D91-5872-4DC9-B30C-F1B3FB4E85C5" typeRef="boolean"/>
       <dmn:rule id="_A523F78D-5CB3-4BAA-A883-D908ED054043">
         <dmn:inputEntry id="_0EA1BD1F-DED9-4AF6-B9A2-CB06B1E7A75E">
           <dmn:text>false</dmn:text>
