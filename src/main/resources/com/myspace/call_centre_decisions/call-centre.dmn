@@ -102,18 +102,26 @@
     <dmn:informationRequirement id="_2C792FF8-721D-4DB9-8973-104A02FD39AB">
       <dmn:requiredDecision href="#_EA90B1D8-0AA4-4225-BD3A-570B8EE78D6B"/>
     </dmn:informationRequirement>
-    <dmn:decisionTable id="_A18FF4B0-20F8-47C7-95DA-E91738DFE232" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
-      <dmn:input id="_09BD1690-361F-4490-A15A-A5AD4547A007">
-        <dmn:inputExpression id="_64305BE9-DB73-4250-BCA4-A5A7F7FCE883" typeRef="boolean">
-          <dmn:text>input-1</dmn:text>
+    <dmn:decisionTable id="_B4F835E5-88A4-469D-967A-53A936AE541D" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
+      <dmn:input id="_92F932A8-5633-493A-B64C-986AD75698F4">
+        <dmn:inputExpression id="_1384D2AC-9303-4CD6-821A-E7546CB9CE7B" typeRef="boolean">
+          <dmn:text>Is Banned</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
-      <dmn:output id="_6A362440-A000-42A5-BCD0-3C99B18AE196" typeRef="boolean"/>
-      <dmn:rule id="_D8C82154-66CF-47DE-9FCC-2DEEE384107D">
-        <dmn:inputEntry id="_34D4B29C-2707-4425-9971-8FDA3CF2E837">
+      <dmn:input id="_7FFE142B-FB87-4A36-B0E5-9D49C82470B7">
+        <dmn:inputExpression id="_3EA96DFD-D250-41C5-8EBE-43DC2D029FE9" typeRef="boolean">
+          <dmn:text>Call Purpose Accepted</dmn:text>
+        </dmn:inputExpression>
+      </dmn:input>
+      <dmn:output id="_ABFAD8EA-6B4D-4B0F-9048-39ED6E0DD07E" typeRef="boolean"/>
+      <dmn:rule id="_654EAC8B-C784-44F8-8D75-3CFEC9F1747D">
+        <dmn:inputEntry id="_43139E74-4082-4CA1-A019-09B2FA23841A">
           <dmn:text></dmn:text>
         </dmn:inputEntry>
-        <dmn:outputEntry id="_42DBA4ED-9D2A-4155-91EB-575ECFDC336B">
+        <dmn:inputEntry id="_04866110-395F-48FA-B344-D9CFB5F54290">
+          <dmn:text></dmn:text>
+        </dmn:inputEntry>
+        <dmn:outputEntry id="_2A6DE509-1DCF-4A44-AB84-5CA7F863050B">
           <dmn:text></dmn:text>
         </dmn:outputEntry>
       </dmn:rule>
@@ -201,8 +209,9 @@
             <kie:width>210.0</kie:width>
             <kie:width>100.0</kie:width>
           </kie:ComponentWidths>
-          <kie:ComponentWidths dmnElementRef="_A18FF4B0-20F8-47C7-95DA-E91738DFE232">
+          <kie:ComponentWidths dmnElementRef="_B4F835E5-88A4-469D-967A-53A936AE541D">
             <kie:width>50.0</kie:width>
+            <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
             <kie:width>100.0</kie:width>
