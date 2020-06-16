@@ -12,12 +12,12 @@
   <dmn:itemDefinition id="_10CBECC7-9E7E-446F-9E15-8A6B86DF1670" name="tPhoneNumber" isCollection="false">
     <dmn:itemComponent id="_98F65AFA-7BCB-4CBE-A593-9A3C8E5A003C" name="phone_number" isCollection="false">
       <dmn:typeRef>string</dmn:typeRef>
-      <dmn:allowedValues kie:constraintType="expression" id="_60117DFF-ECCA-475D-A5A3-4E1E2AA1559E">
-        <dmn:text>"+421","+420"</dmn:text>
-      </dmn:allowedValues>
     </dmn:itemComponent>
     <dmn:itemComponent id="_1FDF4E8D-44AE-4272-99C6-CC6FD5572F61" name="country_prefix" isCollection="false">
       <dmn:typeRef>string</dmn:typeRef>
+      <dmn:allowedValues kie:constraintType="expression" id="_9BD50F39-739E-4D0A-9EE9-FBC8DCD93C83">
+        <dmn:text>"+421","+420"</dmn:text>
+      </dmn:allowedValues>
     </dmn:itemComponent>
   </dmn:itemDefinition>
   <dmn:itemDefinition id="_30970331-650B-406B-B6D7-930B0B2C04E7" name="tPhoneNumbers" isCollection="true">
