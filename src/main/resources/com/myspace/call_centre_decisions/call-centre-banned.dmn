@@ -39,9 +39,9 @@
       <dmn:typeRef>string</dmn:typeRef>
     </dmn:itemComponent>
   </dmn:itemDefinition>
-  <dmn:inputData id="_C35302AB-C079-4686-AC1F-305077549037" name="incoming call">
+  <dmn:inputData id="_C35302AB-C079-4686-AC1F-305077549037" name="incoming_call">
     <dmn:extensionElements/>
-    <dmn:variable id="_BFC44F80-75B0-4DAA-87A1-A417385388D0" name="incoming call" typeRef="tCall"/>
+    <dmn:variable id="_BFC44F80-75B0-4DAA-87A1-A417385388D0" name="incoming_call" typeRef="tCall"/>
   </dmn:inputData>
   <dmn:decision id="_F0E4B10A-9E1A-46D3-AE1E-3F5478D065B5" name="Can Call Be Handled">
     <dmn:extensionElements/>
