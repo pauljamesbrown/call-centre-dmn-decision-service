@@ -146,7 +146,7 @@
       <dmn:requiredDecision href="#_50EDF7C9-F659-470D-91D3-6A5380401C09"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_3E5EE7A4-A62B-4D3F-BCB1-A0E8C0C57BEA">
-      <dmn:text>list contains(Banned Phone Numbers, call.phone)</dmn:text>
+      <dmn:text>true</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:inputData id="_9D275B15-F4A0-40B1-BE31-B11774E3CB87" name="Office">
