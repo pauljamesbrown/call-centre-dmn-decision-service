@@ -133,7 +133,7 @@
   </dmn:decision>
   <dmn:decision id="_56228369-D13E-41AC-8A74-075846916DEA" name="Accept Call">
     <dmn:extensionElements/>
-    <dmn:variable id="_ADE2CE2C-B463-468B-81E3-F0E04C15C41C" name="Accept Call"/>
+    <dmn:variable id="_ADE2CE2C-B463-468B-81E3-F0E04C15C41C" name="Accept Call" typeRef="boolean"/>
     <dmn:informationRequirement id="_617169C5-C786-4A9D-8F2F-5A3B67076D64">
       <dmn:requiredInput href="#_F0BD0B69-05CD-49EB-9CB2-1FC827BF041F"/>
     </dmn:informationRequirement>
