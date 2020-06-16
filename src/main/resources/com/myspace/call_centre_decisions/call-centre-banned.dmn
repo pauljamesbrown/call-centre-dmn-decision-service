@@ -143,7 +143,7 @@
       <dmn:binding>
         <dmn:parameter id="_EC26CF8A-55C5-48D9-84D5-5BC9DB692D5C" name="Call" typeRef="tCall"/>
         <dmn:literalExpression id="_F0569D77-9C77-4539-9FEC-5408B02C9CE3">
-          <dmn:text>inbound_call</dmn:text>
+          <dmn:text>inbound</dmn:text>
         </dmn:literalExpression>
       </dmn:binding>
     </dmn:invocation>
@@ -281,7 +281,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="802" y="267.1842105263158" width="100" height="50"/>
+        <dc:Bounds x="811" y="267.1842105263158" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_56228369-D13E-41AC-8A74-075846916DEA" dmnElementRef="_56228369-D13E-41AC-8A74-075846916DEA" isCollapsed="false">
@@ -342,7 +342,7 @@
         <di:waypoint x="390" y="151"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_195057CA-7F1A-4289-8B88-4872C9D644D1" dmnElementRef="_195057CA-7F1A-4289-8B88-4872C9D644D1">
-        <di:waypoint x="852" y="267.1842105263158"/>
+        <di:waypoint x="861" y="267.1842105263158"/>
         <di:waypoint x="861.4018691588785" y="217"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_DE1CC042-FC17-414E-96C0-31728DEC6B10" dmnElementRef="_DE1CC042-FC17-414E-96C0-31728DEC6B10">
