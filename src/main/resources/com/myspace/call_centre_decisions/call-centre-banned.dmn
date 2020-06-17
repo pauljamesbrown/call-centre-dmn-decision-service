@@ -181,7 +181,7 @@
       <dmn:requiredDecision href="#_3D045FB6-1F81-4EBF-9176-18F9F2194A39"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
-      <dmn:text>list contains(Banned Phone Numbers, Call.phone)</dmn:text>
+      <dmn:text>list contains(Banned Phone Numbers, mapped_call.phone)</dmn:text>
     </dmn:literalExpression>
   </dmn:decision>
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
