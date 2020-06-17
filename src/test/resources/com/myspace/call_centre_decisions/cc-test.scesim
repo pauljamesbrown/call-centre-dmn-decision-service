@@ -578,7 +578,7 @@
     </scesimData>
   </background>
   <settings>
-    <dmnFilePath>src/main/resources/com/myspace/call_centre_decisions/call-centre-banned.dmn</dmnFilePath>
+    <dmnFilePath>src/main/resources/com/myspace/call_centre_decisions/call-centre.dmn</dmnFilePath>
     <type>DMN</type>
     <dmnNamespace>https://kiegroup.org/dmn/_47A84901-AD27-4229-A69A-B8D60DBA5FB1</dmnNamespace>
     <dmnName>call-centre-banned</dmnName>
