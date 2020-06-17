@@ -123,9 +123,9 @@
       </dmn:row>
     </dmn:relation>
   </dmn:decision>
-  <dmn:inputData id="_F68499F3-7ACC-4DBF-9E49-2038F2CB19B5" name="inbound">
+  <dmn:inputData id="_F68499F3-7ACC-4DBF-9E49-2038F2CB19B5" name="inbound_call">
     <dmn:extensionElements/>
-    <dmn:variable id="_D98E51A3-04B9-4C47-9C3A-9C4A8B39BE35" name="inbound" typeRef="tCall"/>
+    <dmn:variable id="_D98E51A3-04B9-4C47-9C3A-9C4A8B39BE35" name="inbound_call" typeRef="tCall"/>
   </dmn:inputData>
   <dmn:decision id="_56228369-D13E-41AC-8A74-075846916DEA" name="Accept Call">
     <dmn:extensionElements/>
@@ -144,9 +144,9 @@
             <dmn:text>Can Handle Call</dmn:text>
           </dmn:literalExpression>
           <dmn:binding>
-            <dmn:parameter id="_4DDEB620-AE51-41B6-8349-F305D0301E36" name="Call" typeRef="tCall"/>
+            <dmn:parameter id="_4DDEB620-AE51-41B6-8349-F305D0301E36" name="mapped_call" typeRef="tCall"/>
             <dmn:literalExpression id="_2C94C07E-0344-4C00-8D09-B6733391CA4F">
-              <dmn:text>inbound</dmn:text>
+              <dmn:text>inbound_call</dmn:text>
             </dmn:literalExpression>
           </dmn:binding>
         </dmn:invocation>
@@ -158,9 +158,9 @@
       </dmn:contextEntry>
     </dmn:context>
   </dmn:decision>
-  <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="Call">
+  <dmn:inputData id="_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81" name="mapped_call">
     <dmn:extensionElements/>
-    <dmn:variable id="_4E1293BE-92F2-4E2B-A6E8-86CBB2550787" name="Call" typeRef="tCall"/>
+    <dmn:variable id="_4E1293BE-92F2-4E2B-A6E8-86CBB2550787" name="mapped_call" typeRef="tCall"/>
   </dmn:inputData>
   <dmn:decisionService id="_06DEACE5-ACAA-47F5-A564-815F417756A1" name="Can Handle Call">
     <dmn:extensionElements/>
@@ -193,7 +193,7 @@
     <dmn:decisionTable id="_53F55661-43D6-4F5E-B79A-8AC83D0EA672" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
       <dmn:input id="_EAA29299-49C8-4DDB-95B6-01B922475F8D">
         <dmn:inputExpression id="_595C328F-0497-42BB-8413-3CE0A3DC008D" typeRef="string">
-          <dmn:text>Call.purpose</dmn:text>
+          <dmn:text>mapped_call.purpose</dmn:text>
         </dmn:inputExpression>
       </dmn:input>
       <dmn:output id="_CB31EE6D-7A74-4FF3-AB2D-5F241EFE429A" typeRef="string">
@@ -299,7 +299,7 @@
           <dmndi:StrokeColor red="0" green="0" blue="0"/>
           <dmndi:FontColor red="0" green="0" blue="0"/>
         </dmndi:DMNStyle>
-        <dc:Bounds x="799" y="541.1842105263158" width="100" height="50"/>
+        <dc:Bounds x="805" y="507.18421052631584" width="100" height="50"/>
         <dmndi:DMNLabel/>
       </dmndi:DMNShape>
       <dmndi:DMNShape id="dmnshape-_56228369-D13E-41AC-8A74-075846916DEA" dmnElementRef="_56228369-D13E-41AC-8A74-075846916DEA" isCollapsed="false">
@@ -360,7 +360,7 @@
         <di:waypoint x="390" y="151"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_AC580F58-C561-4CD3-81AF-69C3D9684DB5" dmnElementRef="_AC580F58-C561-4CD3-81AF-69C3D9684DB5">
-        <di:waypoint x="849" y="541.1842105263158"/>
+        <di:waypoint x="855" y="507.18421052631584"/>
         <di:waypoint x="855.4018691588785" y="286"/>
       </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_DE1CC042-FC17-414E-96C0-31728DEC6B10" dmnElementRef="_DE1CC042-FC17-414E-96C0-31728DEC6B10">
