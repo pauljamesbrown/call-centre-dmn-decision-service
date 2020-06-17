@@ -174,11 +174,11 @@
   <dmn:decision id="_A4ABA0DA-5794-46DA-A844-B2D03742B78A" name="Is Banned">
     <dmn:extensionElements/>
     <dmn:variable id="_ECD3301D-54A2-4EA8-BC15-5A892926F0FC" name="Is Banned" typeRef="boolean"/>
-    <dmn:informationRequirement id="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
-      <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
-    </dmn:informationRequirement>
     <dmn:informationRequirement id="_27241C98-8F72-411D-826C-C71AF4E59C35">
       <dmn:requiredDecision href="#_3D045FB6-1F81-4EBF-9176-18F9F2194A39"/>
+    </dmn:informationRequirement>
+    <dmn:informationRequirement id="_F74C142B-56F1-4744-96CE-7A8A0681239D">
+      <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
     <dmn:literalExpression id="_8FE7405A-D6C1-4BB9-B883-88A57C2E275F">
       <dmn:text>list contains(Banned Phone Numbers, mapped_call.phone)</dmn:text>
@@ -187,7 +187,7 @@
   <dmn:decision id="_C787222E-273C-4BD9-A13C-480329A8B518" name="Call Purpose Accepted">
     <dmn:extensionElements/>
     <dmn:variable id="_5ABE5F0B-C17B-4042-BF49-372F19183977" name="Call Purpose Accepted" typeRef="boolean"/>
-    <dmn:informationRequirement id="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
+    <dmn:informationRequirement id="_3F8BEEF4-8DD4-4FC3-9B88-D759A738E0E6">
       <dmn:requiredInput href="#_C698DC80-26BE-4CED-9CF9-E7BFD93F8D81"/>
     </dmn:informationRequirement>
     <dmn:decisionTable id="_53F55661-43D6-4F5E-B79A-8AC83D0EA672" hitPolicy="UNIQUE" preferredOrientation="Rule-as-Row">
@@ -367,15 +367,15 @@
         <di:waypoint x="595" y="260.5"/>
         <di:waypoint x="805.4018691588785" y="261"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_1BE22492-25F4-4F4A-A79C-93B58BE3B504" dmnElementRef="_1BE22492-25F4-4F4A-A79C-93B58BE3B504">
-        <di:waypoint x="422.29906542056074" y="519"/>
-        <di:waypoint x="366" y="310"/>
-      </dmndi:DMNEdge>
       <dmndi:DMNEdge id="dmnedge-_27241C98-8F72-411D-826C-C71AF4E59C35" dmnElementRef="_27241C98-8F72-411D-826C-C71AF4E59C35">
         <di:waypoint x="280" y="285"/>
         <di:waypoint x="316" y="285"/>
       </dmndi:DMNEdge>
-      <dmndi:DMNEdge id="dmnedge-_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1" dmnElementRef="_84E30FA4-96C6-4A1D-B59A-D4CBD86188A1">
+      <dmndi:DMNEdge id="dmnedge-_F74C142B-56F1-4744-96CE-7A8A0681239D" dmnElementRef="_F74C142B-56F1-4744-96CE-7A8A0681239D">
+        <di:waypoint x="422.29906542056074" y="519"/>
+        <di:waypoint x="366" y="310"/>
+      </dmndi:DMNEdge>
+      <dmndi:DMNEdge id="dmnedge-_3F8BEEF4-8DD4-4FC3-9B88-D759A738E0E6" dmnElementRef="_3F8BEEF4-8DD4-4FC3-9B88-D759A738E0E6">
         <di:waypoint x="422.29906542056074" y="519"/>
         <di:waypoint x="507" y="310"/>
       </dmndi:DMNEdge>
